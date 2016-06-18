@@ -1,0 +1,125 @@
+{
+  "author": "Twopeople Software e.U.",
+  "homepage_url": "https://insttranslate.com",
+  "icons": {
+    "16": "resources/images/icons/icon16.png",
+    "32": "resources/images/icons/icon16@2x.png",
+    "48": "resources/images/icons/icon48.png",
+    "96": "resources/images/icons/icon48@2x.png",
+    "128": "resources/images/icons/icon128.png",
+    "256": "resources/images/icons/icon128@2x.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "resources/styles/pages/common/main.css",
+        "resources/styles/pages/internal/content.css",
+        "resources/styles/ui_components/tooltip/simple.css",
+        "resources/styles/ui_components/tooltip/help.css",
+        "resources/styles/ui_components/tooltip/helpSelected.css"
+      ],
+      "js": [
+        "src/lib/jquery.js",
+        "src/lib/prevel.js",
+        "src/lib/jqEase.js",
+        "src/lib/highlight.js",
+        "src/kernel/kernel.js"
+      ],
+      "run_at": "document_end",
+      "matches": ["*://*/*"],
+      "all_frames": true
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "resources/images/icons/icon19.png",
+      "38": "resources/images/icons/icon19@2x.png"
+    },
+    "default_title": "__MSG_Kernel_AppName__",
+    "default_popup": "pages/public/window.html"
+  },
+  "background": {
+    "page": "pages/internal/background.html",
+    "persistent": true
+  },
+  "options_page": "pages/public/options.html",
+  "name": "__MSG_Kernel_AppName__",
+  "version": "2.9.70",
+  "description": "__MSG_Kernel_AppDescription__",
+  "default_locale": "en",
+  "permissions": [
+    "*://*/*",
+    "tabs",
+    "contextMenus",
+    "webRequest",
+    "webNavigation",
+    "webRequestBlocking",
+    "storage",
+    "unlimitedStorage",
+    "cookies",
+    "proxy"
+  ],
+  "oauth2": {
+    "client_id": "xxx.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/chromewebstore.readonly"
+    ]
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://apis.google.com https://www.bing.com https://ssl.microsofttranslator.com 'unsafe-eval'; style-src 'self' 'unsafe-eval' 'unsafe-inline'; img-src 'self' *; connect-src *; media-src data: http://insttranslate.com http://translate.google.com http://translate.google.ac http://translate.google.ad http://translate.google.ae http://translate.google.af http://translate.google.ag http://translate.google.com.ai http://translate.google.al http://translate.google.am http://translate.google.com.ao http://translate.google.com.ar http://translate.google.as http://translate.google.at http://translate.google.com.au http://translate.google.az http://translate.google.ba http://translate.google.com.bd http://translate.google.be http://translate.google.bf http://translate.google.bg http://translate.google.com.bh http://translate.google.bi http://translate.google.bj http://translate.google.com.bn http://translate.google.com.bo http://translate.google.com.br http://translate.google.bs http://translate.google.bt http://translate.google.co.bw http://translate.google.by http://translate.google.com.bz http://translate.google.ca http://translate.google.com.kh http://translate.google.cc http://translate.google.cd http://translate.google.cf http://translate.google.cat http://translate.google.cg http://translate.google.ch http://translate.google.ci http://translate.google.co.ck http://translate.google.cl http://translate.google.cm http://translate.google.cn http://translate.google.com.co http://translate.google.co.cr http://translate.google.hr http://translate.google.com.cu http://translate.google.cv http://translate.google.com.cy http://translate.google.cz http://translate.google.de http://translate.google.dj http://translate.google.dk http://translate.google.dm http://translate.google.com.do http://translate.google.dz http://translate.google.com.ec http://translate.google.ee http://translate.google.com.eg http://translate.google.es http://translate.google.com.et http://translate.google.fi http://translate.google.com.fj http://translate.google.fm http://translate.google.fr http://translate.google.ga http://translate.google.ge http://translate.google.gf http://translate.google.gg http://translate.google.com.gh http://translate.google.com.gi http://translate.google.gl http://translate.google.gm http://translate.google.gp http://translate.google.gr http://translate.google.com.gt http://translate.google.gy http://translate.google.com.hk http://translate.google.hn http://translate.google.ht http://translate.google.hu http://translate.google.co.id http://translate.google.ir http://translate.google.iq http://translate.google.ie http://translate.google.co.il http://translate.google.im http://translate.google.co.in http://translate.google.io http://translate.google.is http://translate.google.it http://translate.google.je http://translate.google.com.jm http://translate.google.jo http://translate.google.co.jp http://translate.google.co.ke http://translate.google.ki http://translate.google.kg http://translate.google.co.kr http://translate.google.com.kw http://translate.google.kz http://translate.google.la http://translate.google.com.lb http://translate.google.lc http://translate.google.li http://translate.google.lk http://translate.google.co.ls http://translate.google.lt http://translate.google.lu http://translate.google.lv http://translate.google.com.ly http://translate.google.co.ma http://translate.google.md http://translate.google.me http://translate.google.mg http://translate.google.mk http://translate.google.ml http://translate.google.com.mm http://translate.google.mn http://translate.google.ms http://translate.google.com.mt http://translate.google.mu http://translate.google.mv http://translate.google.mw http://translate.google.com.mx http://translate.google.com.my http://translate.google.co.mz http://translate.google.com.na http://translate.google.ne http://translate.google.com.nf http://translate.google.com.ng http://translate.google.com.ni http://translate.google.nl http://translate.google.no http://translate.google.com.np http://translate.google.nr http://translate.google.nu http://translate.google.co.nz http://translate.google.com.om http://translate.google.com.pa http://translate.google.com.pe http://translate.google.com.ph http://translate.google.com.pk http://translate.google.pl http://translate.google.com.pg http://translate.google.pn http://translate.google.com.pr http://translate.google.ps http://translate.google.pt http://translate.google.com.py http://translate.google.com.qa http://translate.google.ro http://translate.google.rs http://translate.google.ru http://translate.google.rw http://translate.google.com.sa http://translate.google.com.sb http://translate.google.sc http://translate.google.se http://translate.google.com.sg http://translate.google.sh http://translate.google.si http://translate.google.sk http://translate.google.com.sl http://translate.google.sn http://translate.google.sm http://translate.google.so http://translate.google.st http://translate.google.com.sv http://translate.google.td http://translate.google.tg http://translate.google.co.th http://translate.google.com.tj http://translate.google.tk http://translate.google.tl http://translate.google.tm http://translate.google.to http://translate.google.tn http://translate.google.com.tr http://translate.google.tt http://translate.google.com.tw http://translate.google.co.tz http://translate.google.com.ua http://translate.google.co.ug http://translate.google.co.uk http://translate.google.us http://translate.google.com.uy http://translate.google.co.uz http://translate.google.com.vc http://translate.google.co.ve http://translate.google.vg http://translate.google.co.vi http://translate.google.com.vn http://translate.google.vu http://translate.google.ws http://translate.google.co.za http://translate.google.co.zm http://translate.google.co.zw http://ip-api.com; object-src 'self'",
+  "web_accessible_resources": [
+    
+    
+    "/src/kernel/init.js",
+    "/src/hub/content/router.js",
+    "/src/hub/content/render.js",
+    "/src/hub/content/handlers.js",
+    "/src/ui_views/multi_variant.js",
+    "/src/ext/tpl.js",
+    "/src/ext/event.js",
+    "/src/ext/util/selectorsUtil.js",
+    "/src/ext/util/langUtil.js",
+    "/src/particles/translate_ctt/tcModel.js",
+    "/src/ui_components/tooltip/simple.js",
+    "/src/ui_components/tooltip/help.js",
+    "/src/templates/helpSelectedTooltip.js",
+    "/src/templates/simpleTooltip.js",
+    "/src/ui_components/tooltip/helpSelected.js",
+    "/src/templates/helpTooltip.js",
+    "/src/particles/scrollbars/sModel.js",
+    "/src/ui_components/scrollbar/scrollbar.js",
+    "/resources/styles/ui_components/tooltip/helpSelected.css",
+    "/resources/styles/pages/common/main.css",
+    "/resources/styles/pages/internal/content.css",
+    "/resources/styles/ui_components/tooltip/simple.css",
+    "/resources/styles/ui_components/tooltip/help.css",
+    "/resources/images/sprites/sprite.png",
+    "/src/particles/listen/lModel.js",
+    "/src/ext/audio.js",
+    "/src/ext/dom.js",
+
+    "/resources/images/ui_elements/tt_swap.png",
+    "/resources/images/ui_elements/tt_swap@2x.png",
+
+    "/resources/images/ui_elements/google.png",
+    "/resources/images/ui_elements/google@2x.png",
+
+    "/resources/images/ui_elements/speaker_orig.png",
+    "/resources/images/ui_elements/speaker_orig@2x.png",
+
+    "/resources/images/ui_elements/unpin.png",
+    "/resources/images/ui_elements/unpin@2x.png",
+
+    "/resources/images/ui_elements/highlight.png",
+    "/resources/images/ui_elements/highlight@2x.png",
+
+    "/resources/images/ui_elements/speaker_big.png",
+    "/resources/images/ui_elements/speaker_big@2x.png",
+
+    "/resources/images/ui_elements/close_unpinned.png",
+    "/resources/images/ui_elements/close_unpinned@2x.png",
+    "/src/ext/googleApi.js",
+    "/src/ext/util/storageUtil.js",
+    "/src/ext/const/storage.js"
+  ]
+}

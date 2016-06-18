@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="/src/lib/prevel.js"></script>
+    <script defer src="/src/lib/jquery.js"></script>
+    <script defer src="/src/lib/jqEase.js"></script>
+    <script defer src="/src/kernel/kernel.js"></script>
+
+    <link href="/resources/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/common/main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/public/tour.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="main-wrap">
+    <div class="top-wrap">
+        <div class="inside-layout">
+            <div class="app-name need-html-locale" id="Tour_Title">Instant Translate: Short Overview</div>
+            <div class="got-it need-html-locale" id="Tour_GotIt"></div>
+        </div>
+    </div>
+
+    <div class="block two-col-block monetization-block" style="display: none;" data-bid="3">
+        <div class="meta">
+            <div class="headline-remark need-html-locale" id="Tour_MonLater"></div>
+            <div class="headline need-html-locale" id="Tour_MonCis"></div>
+            <div class="desc need-html-locale" id="Tour_MonDesc"></div>
+
+            <div class="simple-state-selector">
+                <div class="opt-in-button need-html-locale" id="Tour_MonOptIn"></div>
+                <div class="ss-button monetization simple-ss-button" data-option="monetization">
+                    <div class="tick"></div>
+                    <div class="sign"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="first-col">
+        <div class="block b-1" data-bid="1">
+            <div class="meta">
+                <div class="headline"><span class="need-html-locale" id="Tour_Press"></span> &laquo;Shift+T&raquo;,
+                </div>
+                <div class="desc need-html-locale" id="Tour_PressDesc"></div>
+            </div>
+            <div class="contents">
+                <div class="image">
+                    <img class="changeable" data-name="tooltip" data-delay="2650" data-cur="1" data-max="3"
+                         src="http://insttranslate.com/files/browser_tutorial_img/tooltip_1.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="block b-2 single-meta-block" data-bid="2">
+            <div class="meta">
+                <div class="headline need-html-locale" id="Tour_DoubleClick">Double-click translation</div>
+                <div class="desc need-html-locale" id="Tour_DoubleClickDesc">Double-click on the word on a page to
+                    translate.
+                </div>
+
+                <div class="simple-state-selector">
+                    <div class="ss-button double_click simple-ss-button" data-option="double_click">
+                        <div class="tick"></div>
+                        <div class="sign"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><div class="second-col">
+        <div class="block b-2 wide-block" data-bid="3">
+            <div class="meta">
+                <div class="headline need-html-locale" id="Settings_OtherAppsDesc"></div>
+            </div>
+            <div class="adj-layout promo-layout need-html-locale" id="CommonUi_NoResults"></div>
+        </div>
+
+        <div class="block b-2 wide-block" data-bid="2">
+            <div class="meta">
+                <div class="headline need-html-locale" id="Tour_Popup"></div>
+                <div class="desc need-html-locale" id="Tour_PopupDesc"></div>
+            </div>
+            <div class="contents">
+                <div class="image">
+                    <img class="chang-popup changeable" data-name="popup" data-delay="4950" data-cur="1" data-max="3"
+                         src="http://insttranslate.com/files/browser_tutorial_img/popup_1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

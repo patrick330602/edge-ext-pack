@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="/src/lib/prevel.js"></script>
+    <script defer src="/src/lib/jquery.js"></script>
+    <script defer src="/src/lib/jqEase.js"></script>
+    <script defer src="/src/kernel/kernel.js"></script>
+
+    <link href="/resources/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/common/main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/public/history.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="need-html-locale up-shortcut" id="History_Content_GoUpButton"></div>
+
+<div class="quick-access-bar">
+    <div class="qab-inner">
+        <div class="del-actions">
+            <div class="qa-btn delete-selected qa-delete-selected">
+                <div class="text-label need-html-locale" id="History_Options_DeleteMarked_1"></div>
+                <div class="number-label to-delete-label">0</div>
+                <div class="text-label need-html-locale" id="History_Options_DeleteMarked_2"></div>
+            </div>
+            <div class="qa-btn qa-cancel need-html-locale" id="History_Options_DeleteBar_Cancel"></div>
+        </div>
+        <div class="sel-actions">
+            <div class="need-html-locale qa-btn select-all qa-mark-all stick-right"
+                 id="History_Options_SelectToDelete_MarkAll"></div><div class="need-html-locale qa-btn deselect-all qa-unmark-all stick-left"
+                 id="History_Options_SelectToDelete_UnmarkAll"></div>
+        </div>
+    </div>
+</div>
+
+<div id="page-vis-scroll">
+    <div id="page-entire-scroll">
+        <div id="main-wrap">
+            <div class="top-wrap">
+                <div class="inside-layout">
+                    <div class="pa-button export-button need-html-locale" id="History_Options_ExportAsCsv"></div>
+                    <div class="pa-button more-button need-html-locale" id="History_Options_SelectToDelete"></div>
+                    <div class="app-name need-html-locale" id="Kernel_HistoryTitle"></div>
+                </div>
+            </div>
+
+            <div class="options-wrap collapsable">
+                <div class="del-actions">
+                    <div class="qa-btn delete-selected qa-delete-selected">
+                        <div class="text-label need-html-locale" id="History_Options_DeleteMarked_1"></div>
+                        <div class="number-label to-delete-label">0</div>
+                        <div class="text-label need-html-locale" id="History_Options_DeleteMarked_2"></div>
+                    </div>
+                    <div class="qa-btn qa-cancel need-html-locale" id="History_Options_DeleteBar_Cancel"></div>
+                </div>
+                <div class="sel-actions">
+                    <div class="need-html-locale qa-btn select-all qa-mark-all stick-right"
+                         id="History_Options_SelectToDelete_MarkAll"></div><div class="need-html-locale qa-btn deselect-all qa-unmark-all stick-left"
+                                                                                id="History_Options_SelectToDelete_UnmarkAll"></div>
+                </div>
+            </div>
+
+            <div class="content-wrap">
+                <div class="search-layout">
+                    <div class="inner-search-wrap">
+                        <input type="text" class="need-ph-locale search-input" id="Kernel_SearchPlaceholder"
+                               placeholder="">
+
+                        <div class="search-options"></div>
+                        <div class="clear-input-tick"></div>
+                    </div>
+                </div>
+
+                <div class="search-options-layout">
+                <div class="sol-col">
+                    <div class="sol-padded">
+                        <div class="sol-heading">Specify date</div>
+                        <div class="sol-quick-shortcuts">
+                            <span>yesterday</span>, <span>last week</span>, <span>last month</span>
+                        </div>
+                    </div>
+                    <div class="sol-tabber">
+                        <span class="solt-opt solt-opt-current" data-id="1">Exact date</span><span class="solt-opt" data-id="2">Period</span>
+                    </div>
+                    <div class="sol-padded">
+                        <div class="solt-cont soltc-1">
+                            <div class="sol-preposition">on</div>
+                            <input type="text" class="sol-exact-time datepicker">
+                        </div>
+                        <div class="solt-cont soltc-2">
+                            <div class="sol-preposition">from</div>
+                            <input type="text" class="sol-time-from datepicker">
+
+                            <div class="sol-preposition">until</div>
+                            <input type="text" class="sol-time-until datepicker">
+                        </div>
+                    </div>
+                </div>
+                <div class="sol-col">
+                    <div class="sol-padded">
+                        <div class="sol-heading">Specify language</div>
+                        <div class="sol-subcol">
+                            <div class="sol-subheading">From</div>
+                            <div class="ui_selector">
+                                <div class="options opt-1" data-serial="1">
+                                    <div id="selVisibleScroll-1">
+                                        <div id="selEntireScroll-1">
+                                            <div class="inner-options-layout">
+                                                <ul class="list">
+                                                    <li class="search-li">
+                                                        <div class="dd-search">
+                                                            <input class="dd-input need-ph-locale" type="text"
+                                                                   data-dir="from"
+                                                                   id="Window_Dropdown_SearchPlaceholder">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div id="sel-scrollbar-1">
+                                            <div id="sel-track-1">
+                                                <div id="sel-dragBar-1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sol-subcol">
+                            <div class="sol-subheading">To</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="inner-layout">
+                    <div class="history-list"></div>
+
+                    <div class="ec-wrap">
+                        <div class="ec-inside-layout">
+                            <div class="ec-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

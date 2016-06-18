@@ -1,0 +1,128 @@
+.clear-fix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+#main {
+    margin: 60px auto 20px auto;
+    max-width: 900px;
+    padding: 0 36px;
+}
+
+#footer {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#logo {
+    float: right;
+    padding-top: 20px;
+}
+
+#languages {
+    width: 240px;
+    height: 32px;
+}
+
+.selectall {
+    font-weight: bold;
+}
+
+.headingtext {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.subheadingtext {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+#hr1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+    table tbody tr td label {
+        white-space: nowrap;
+    }
+
+th, td {
+    overflow: hidden;
+    width: 168px;
+    padding: 6px;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+    input[type="checkbox"] + label span {
+        display: inline-block;
+        width: 16px;
+        margin-top: 4px;
+        margin-left: 2px;
+        height: 16px;
+        vertical-align: middle;
+        background: url(../assets/check_radio_sheet.png) left top no-repeat;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked + label span {
+        background: url(../assets/check_radio_sheet.png) -19px top no-repeat;
+    }
+
+input[type="checkbox"][style*="display"][style*="none"] + label {
+    display: none;
+}
+
+.languagetext {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+
+#option3 {
+    white-space: nowrap;
+}
+
+#alwaysTranslateLabel {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 6px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.errorPanel {
+    text-align: center;
+}
+
+.error {
+    background-color: #ff8a8a;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid red;
+    display: none;
+}
+
+    .error .small {
+        margin-top: 5px;
+        font-size: 10px;
+    }

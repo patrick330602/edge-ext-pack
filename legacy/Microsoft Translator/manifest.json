@@ -1,0 +1,44 @@
+﻿{
+    "name": "__MSG_extensionName__",
+    "version": "0.91.4.1",
+    "default_locale": "en",
+    "author": "Microsoft Translator",
+
+    "description": "__MSG_extensionDescription__",
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon148.png"
+    },
+
+    "page_action": {
+        "default_icon": {
+            "20": "assets/iconpassive20.png",
+            "25": "assets/iconpassive25.png",
+            "30": "assets/iconpassive30.png",
+            "40": "assets/iconpassive40.png"
+        },
+        "default_title": "__MSG_popupTitle__"
+    },
+
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage",
+        "activeTab",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "persistent": true,
+        "page": "TranslatorBackground.html"
+    },
+
+    "options_page": "options.html",
+
+    "minimum_edge_version": "37.14316.1000.0",
+
+    "web_accessible_resources": [
+        "assets/check_radio_sheet.png"
+    ]
+}

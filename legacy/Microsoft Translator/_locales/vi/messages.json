@@ -1,0 +1,45 @@
+﻿{
+    "extensionName": {
+        "message": "Microsoft Translator",
+	"description": "Microsoft Translator"
+    },
+    "extensionDescription": {
+        "message": "Dịch các trang tiếng nước ngoài với hơn 50 ngôn ngữ bằng cách tải phần mở rộng Microsoft Translator. Biểu tượng dịch thuật sẽ xuất hiện trên thanh địa chỉ khi truy cập trang có tiếng nước ngoài trong Microsoft Edge. Hãy nhấn vào biểu tượng để dịch tức thì trang web theo ngôn ngữ ưa thích của bạn.",
+        "description": "Translate foreign language pages for 50+ languages by downloading the Microsoft Translator extension. The translation icon will appear in the address bar when visiting a foreign-language webpage in Microsoft Edge. Click on the icon to instantly translate the webpage to your preferred language."
+    },
+    "popupTitle": {
+        "message": "Dịch trang này",
+        "description": "Translate this page"
+    },
+    "showOriginalButton": {
+        "message": "Hiển thị trang gốc",
+        "description": "Show original page"
+    },
+    "optionsTitle": {
+        "message": "Microsoft Translator Options"
+    },
+    "optionsTranslateTo": {
+        "message": "Translate pages to"
+    },
+    "optionsChooseLang": {
+        "message": "Don't translate sites in the following languages:"
+    },
+    "alwaysTranslateLabel": {
+        "message": "Always translate foreign language sites without asking"
+    },
+    "feedback": {
+        "message": "Feedback"
+    },
+    "selectAll": {
+        "message": "Select All"
+    },
+    "translateButton": {
+        "message": "Translate this page with Microsoft Translator"
+    },
+    "options": {
+        "message": "Options"
+    },
+	"alwaysTranslatePopup": {
+        "message": "Always translate foreign language sites"
+    }
+}

@@ -1,0 +1,283 @@
+.icon:before {
+	font-weight: 100 !important;
+	font-family: "Segoe MDL2 Assets" !important;
+}
+
+.js-account-selector-grid-toggle i:before {
+	font-family: "tweetdeckregular" !important;
+	font-weight: normal !important;
+}
+
+.js-column-nav-scroller .icon-favorite:before {
+	content: "\E006" !important;
+}
+
+.icon-home:before {
+	content: "\E10F" !important;
+}
+
+.icon-activity:before {
+	content: "\E701" !important;
+}
+
+.mdl .mdl-dismiss .icon-close{
+	    font-size: 11px !important;
+}
+
+.js-mediatable .icon-close{
+	font-size: 18px !important;
+}
+
+.icon-notifications:before,
+.icon-info:before {
+	content: "\EA8F" !important;
+}
+
+.icon-user:before {
+	content: "\E8A9" !important;
+}
+
+.icon-schedule:before {
+	content: "\E8BE" !important;
+}
+
+.icon-message:before {
+	content: "\E8F2" !important;
+}
+
+.icon-compose:before,
+.icon-compose-dm:before {
+	content: "\E104" !important;
+}
+
+.icon-search:before {
+	content: "\E1A3" !important;
+}
+
+.icon-sliders:before,
+.icon-settings:before {
+	content: "\E10C" !important;
+}
+
+.icon-schedule:before {
+	content: "\E823" !important;
+}
+
+.icon-plus:before {
+	content: "\E109" !important;
+}
+
+.icon-list:before,
+.icon-user-team-mgr:before {
+	content: "\E125" !important;
+}
+
+.icon-follow:before,
+.icon-twitter-bird:before {
+	content: "\E1E2" !important;
+}
+
+.icon-mention:before {
+	content: "\E168" !important;
+}
+
+.icon-user:before {
+	content: "\E77B" !important;
+}
+
+.icon-user-switch:before {
+	content: "\E125" !important;
+}
+
+.icon-favorite:before {
+	content: "\E00B" !important;
+}
+
+.icon-retweet:before {
+	content: "\E1CA" !important;
+}
+
+.icon-reply:before {
+	content: "\E248" !important;
+}
+
+.icon-more:before {
+	content: "\E712" !important;
+}
+
+.icon-dot:before {
+	content: "\E1F5" !important;
+}
+
+.icon-content:before {
+	content: "\E70B" !important;
+}
+
+.icon-image:before,
+.icon-camera:before {
+	content: "\EB9F" !important;
+}
+
+.icon-arrow-l:before {
+	content: "\E00E" !important;
+}
+
+.icon-arrow-r:before {
+	content: "\E00F" !important;
+}
+
+.icon-arrow-u:before {
+	content: "\E010" !important;
+}
+
+.icon-arrow-d:before {
+	content: "\E011" !important;
+}
+
+.icon-play-video:before {
+	content: "\E768" !important;
+}
+
+.icon-clear-timeline:before,
+.icon-trash:before {
+	content: "\E107" !important;
+}
+
+.icon-close:before {
+	content: "\E106" !important;
+}
+
+.icon-user-dd:before {
+	content: "\E779" !important;
+}
+
+.icon-trending:before {
+	content: "\E945" !important;
+}
+
+.icon-custom-timeline:before {
+	content: "\E923" !important;
+}
+
+.icon-check:before,
+.mdl .js-account-selector .acc-selected i:before {
+	content: "\E0E7" !important;
+}
+
+.icon-mark-read:before {
+	content: "\EA98" !important;
+}
+
+.icon-share:before {
+	content: "\E72D" !important;
+}
+
+.icon-move:before {
+	content: "\E759" !important;
+}
+
+.icon-protected:before {
+	content: "\E1F6" !important;
+}
+
+.icon-popout:before {
+	content: "\E2B4" !important;
+}
+
+.icon-popout{
+	transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+}
+
+.icon-geo:before {
+    content: "\E1D2" !important;
+}
+
+.js-app-settings .icon-settings:before {
+	content: "\E713" !important;
+}
+
+[data-title='Expand'] .icon-arrow-l-double:before,
+[data-title='Expand'] .icon-arrow-r-double:before {
+	content: "\E700" !important;
+	font-family: "Segoe MDL2 Assets" !important;
+}
+
+[data-title='Expand'] .icon-arrow-l-double,
+[data-title='Expand'] .icon-arrow-r-double {
+	padding-top: 3px !important;
+}
+
+.mdl .js-account-selector .icon-twitter-bird:before {
+	content: '\E0E7' !important;
+}
+
+.column-header-link {
+	top: 2px !important;
+}
+
+.column-header-link i {
+	font-size: 17px !important;
+}
+
+.js-action-header-button:hover {
+	background-color: transparent !important;
+}
+
+.icon-analytics:before {
+	content: "\EC24" !important;
+}
+
+.js-tweet-actions [rel="reply"] i {
+	font-size: 15px !important;
+}
+
+.js-tweet-actions [rel="retweet"] i {
+	font-size: 20px !important;
+}
+
+.js-tweet-actions [rel="favorite"] i {
+	font-size: 16px !important;
+}
+
+.js-tweet-actions [rel="actionsMenu"] i {
+	font-size: 22px !important;
+}
+
+.js-inline-reply .icon-close {
+	font-size: 14px !important;
+line-height: 5px !important;
+}
+
+.js-inline-reply .icon-popout {
+	font-size: 22px !important;
+line-height: 20px !important;
+}
+
+.column-type-message .rpl-actions .icon-camera{
+	font-size: 20px !important;
+line-height: 21px !important;
+}
+
+
+.column-type-message .js-column-header .open-compose-dm-link i{
+	font-size: 15px !important;
+}
+
+.column-type-message .js-column-header .mark-all-read-link i{
+	font-size: 21px !important;
+}
+
+.column-type-message .js-column-header .open-compose-dm-link{
+line-height: 56px;
+}
+
+.column-type-message .js-column-header .mark-all-read-link{
+line-height: 62px !important;
+}
+
+.icon-edit:before{
+    content : "\E104" !important;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="/src/lib/prevel.js"></script>
+    <script defer src="/src/lib/jquery.js"></script>
+    <script defer src="/src/lib/jqEase.js"></script>
+    <script defer src="/src/kernel/kernel.js"></script>
+
+    <link href="/resources/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/common/main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/public/options.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="templates">
+    <div class="t-combinations">
+        <div class="combo-select cs-<%=index1%> cs-<%=index2%> cs-<%=index3%> <%=main_class%>" data-index1="<%=index1%>" data-index2="<%=index2%>" data-index3="<%=index3%>" data-from="<%=from%>" data-to="<%=to%>" data-combo="<%=combo%>">
+            <div class="from-lang">
+                <div class="ui_selector">
+                    <div class="select <%=new_identifier%> need-html-locale" id="Settings_SourceLang">Source language</div>
+                    <div class="options opt-<%=index1%>" data-serial="<%=index1%>">
+                        <div class="visibles-scroll" id="selVisibleScroll-<%=index1%>">
+                            <div class="entire-scroll" id="selEntireScroll-<%=index1%>">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                        <li class="search-li">
+                                            <div class="dd-search">
+                                                <input class="dd-input need-ph-locale" type="text"
+                                                       data-dir="from"
+                                                       id="Window_Dropdown_SearchPlaceholder">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sel-scrollbar" id="sel-scr-<%=index1%>">
+                                <div class="sel-track" id="sel-tr-<%=index1%>">
+                                    <div class="sel-dragBar" id="sel-db-<%=index1%>"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="to-lang">
+                <div class="ui_selector">
+                    <div class="select <%=new_identifier%> need-html-locale" id="Settings_DestLang">Destination language</div>
+                    <div class="options opt-<%=index2%>" data-serial="<%=index2%>">
+                        <div class="visibles-scroll" id="selVisibleScroll-<%=index2%>">
+                            <div class="entire-scroll" id="selEntireScroll-<%=index2%>">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                        <li class="search-li">
+                                            <div class="dd-search">
+                                                <input class="dd-input need-ph-locale" type="text"
+                                                       data-dir="from"
+                                                       id="Window_Dropdown_SearchPlaceholder">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sel-scrollbar" id="sel-scr-<%=index2%>">
+                                <div class="sel-track" id="sel-tr-<%=index2%>">
+                                    <div class="sel-dragBar" id="sel-db-<%=index2%>"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="combo <%=new_identifier%> combo-<%=index3%>" data-combo-id="<%=index3%>" data-combo="<%=combo%>">
+                <div class="combo-selector need-html-locale" id="Settings_Combo">Key combination</div>
+            </div><div class="combo-del-tick need-title-locale" id="Kernel_RemoveCombination"></div>
+            <div class="state-selector context-state">
+                <div class="placeholder need-html-locale" id="Settings_Context">Context menu</div><div class="state state-true first selected need-html-locale" id="Settings_On" data-id="true">ON</div><div class="state last state-false need-html-locale" id="Settings_Off" data-id="false">OFF</div>
+            </div>
+            <div class="state-selector action-state">
+                <div class="placeholder need-html-locale" id="Settings_Action">Action</div><div class="state state-1 first selected need-html-locale" id="Settings_Tooltip" data-id="1">In tooltip</div><div class="state last state-2 need-html-locale" id="Settings_Gt" data-id="2">On Google Translate</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="t-combo-change-window">
+        <div class="combo-change-layout">
+            <div class="combo-change-window w-<%=window_id%>" data-combo-id="<%=combo_id%>" data-id="<%=window_id%>">
+                <div class="ccw-top">
+                    <div class="ccw-headline need-html-locale" id="Settings_SetNewCombo">Set key combination</div>
+                    <div class="ccw-close need-html-locale" id="Settings_Close">close</div>
+                </div>
+                <div class="ccw-combo-layout">
+                    <div class="ccw-placeholder need-html-locale" id="Settings_PressDesiredKeys">Press desired keys ...</div>
+                    <div class="ccw-error need-html-locale" id="Settings_BrowserReserved">reserved by browser</div>
+                    <div class="ccw-keys"></div>
+                    <div class="ccw-clear"></div>
+                </div>
+                <!--<div class="ccw-examples-layout">
+                    <div class="ccw-examples-headline need-html-locale" id="Settings_Examples">Examples:</div>
+                    <div class="ccw-examples"><%=examples%></div>
+                </div>
+                <div class="ccw-done-layout">
+                    <div class="ccw-done need-html-locale" id="Settings_Save">Save changes</div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="t-ccw-combo">
+        <div class="ccw-combo combo-<%=code%>" data-code="<%=code%>"><%=name%></div>
+    </div>
+
+    <div class="t-ccw-example">
+        <div class="ccw-example"><%=combination%></div>
+    </div>
+</div>
+
+<div id="main-wrap">
+    <div class="top-wrap">
+        <div class="inside-layout">
+            <div class="app-name need-html-locale" id="Kernel_SettingsTitle">Settings</div>
+        </div>
+    </div>
+
+    <div class="content-wrap">
+        <div class="tabber-control">
+            <div class="tab tab-1 need-html-locale" id="Settings_Tabs_General" data-id="1">General</div><div class="tab tab-2 need-html-locale" id="Settings_Tabs_Popup" data-id="2">Pop-up</div><div class="tab tab-3 need-html-locale" id="Settings_Translation_KeyCombos" data-id="3">Key combinations</div>
+        </div>
+        <div class="tab-contents tc-1">
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_OtherApps"></div>
+                </div>
+                <div class="adj-layout promo-layout need-html-locale" id="CommonUi_NoResults"></div>
+                <div class="adj-layout social-buttons-layout">
+                    <div class="adj-layout-title need-html-locale" id="Settings_Contact">Contact</div>
+                    <a href="mailto:contact@insttranslate.com?subject=Instant Translate " target="_blank" title="insttranslate@gmail.com" class="social-button mail-button need-title-locale" id="Settings_SB_Mail"></a>
+                    <a href="https://twitter.com/insttranslate" target="_blank" class="social-button tw-button need-title-locale" id="Settings_SB_Twitter"></a>
+                    <a href="https://facebook.com/insttranslate" target="_blank" class="social-button fb-button need-title-locale" id="Settings_SB_Facebook"></a>
+                    <a href="https://insttranslate.com" target="_blank" class="social-button site-button need-title-locale" id="Settings_SB_Site"></a>
+                </div><div class="adj-layout share-buttons-layout">
+                    <div class="adj-layout-title need-html-locale" id="Settings_Share">Share</div>
+                    <div class="share-button fb-button" data-pl="fb"></div>
+                    <div class="share-button tw-button" data-pl="tw"></div>
+                    <div class="share-button vk-button" data-pl="vk"></div>
+                    <div class="share-button gp-button" data-pl="gp"></div>
+                </div>
+            </div>
+
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Tour_DoubleClick"></div>
+                    <div class="description need-html-locale" id="Tour_DoubleClickDesc"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button double_click simple-ss-button" data-option="double_click">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Translation_History"></div>
+                    <div class="description need-html-locale" id="Settings_Translation_History_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button history simple-ss-button" data-option="history">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Interface_ShowTranslit"></div>
+                    <div class="description need-html-locale" id="Settings_Interface_ShowTranslit_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button show_translit simple-ss-button" data-option="show_translit">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-block monetization-block" style="display: none;">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Tour_Mon"></div>
+                    <div class="description need-html-locale" id="Tour_MonDesc"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button monetization simple-ss-button" data-option="monetization">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-contents tc-2">
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Interface_InstantTranslation"></div>
+                    <div class="description need-html-locale"
+                         id="Settings_Interface_InstantTranslation_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button instant simple-ss-button" data-option="instant">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Interface_Autocorrection"></div>
+                    <div class="description need-html-locale"
+                         id="Settings_Interface_Autocorrection_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button autocorrection simple-ss-button" data-option="autocorrection">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Interface_Save"></div>
+                    <div class="description need-html-locale" id="Settings_Interface_Save_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button save simple-ss-button" data-option="save">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-contents tc-3">
+            <div class="settings-block">
+                <div class="sb-padded">
+                    <div class="headline need-html-locale" id="Settings_Translation_KeyCombos"></div>
+                    <div class="description need-html-locale" id="Settings_Translation_KeyCombos_Description"></div>
+                </div>
+                <div class="adj-layout">
+                    <div class="simple-state-selector">
+                        <div class="ss-button key_combo" data-option="key_combo">
+                            <div class="tick"></div>
+                            <div class="sign"></div>
+                        </div>
+                    </div>
+                    <div class="ss-related key_combo-selection">
+                        <div class="combination-list">
+                            <div class="combinations-section-pl main-section-pl need-html-locale" id="Settings_Translation_KeyCombos_MainCombo"></div>
+                            <div class="main-combinations"></div>
+                            <div class="combinations-section-pl need-html-locale" id="Settings_Translation_KeyCombos_AddCombo"></div>
+                            <div class="add-combinations"></div>
+                        </div>
+                        <div class="new-combo-button need-html-locale need-title-locale" id="Kernel_AddCombination">ADD NEW</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

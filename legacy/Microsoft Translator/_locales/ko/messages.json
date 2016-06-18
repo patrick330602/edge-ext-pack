@@ -1,0 +1,45 @@
+﻿{
+    "extensionName": {
+        "message": "Microsoft Translator",
+	"description": "Microsoft Translator"
+    },
+    "extensionDescription": {
+        "message": "Microsoft 번역기 확장을 다운로드하여 외국어를 50개국어 이상으로 번역해 보세요. Microsoft Edge 에서 외국어로 된 웹페이지를 방문하면 주소 표시줄에 번역 아이콘이 나타납니다. 아이콘을 클릭하면 웹페이지가 선호하는 언어로 즉시 번역됩니다.",
+        "description": "Translate foreign language pages for 50+ languages by downloading the Microsoft Translator extension. The translation icon will appear in the address bar when visiting a foreign-language webpage in Microsoft Edge. Click on the icon to instantly translate the webpage to your preferred language."
+    },
+    "popupTitle": {
+        "message": "이 페이지를 번역",
+        "description": "Translate this page"
+    },
+    "showOriginalButton": {
+        "message": "원래 페이지 보기",
+        "description": "Show original page"
+    },
+    "optionsTitle": {
+        "message": "Microsoft Translator Options"
+    },
+    "optionsTranslateTo": {
+        "message": "Translate pages to"
+    },
+    "optionsChooseLang": {
+        "message": "Don't translate sites in the following languages:"
+    },
+    "alwaysTranslateLabel": {
+        "message": "Always translate foreign language sites without asking"
+    },
+    "feedback": {
+        "message": "Feedback"
+    },
+    "selectAll": {
+        "message": "Select All"
+    },
+    "translateButton": {
+        "message": "Translate this page with Microsoft Translator"
+    },
+    "options": {
+        "message": "Options"
+    },
+	"alwaysTranslatePopup": {
+        "message": "Always translate foreign language sites"
+    }
+}

@@ -1,0 +1,193 @@
+body {
+    background: #EFEFEF;
+    overflow: auto;
+}
+
+#main-wrap {
+    margin: 0 auto 20px auto;
+    width: calc(580px + 20px + 396px);
+}
+
+.top-wrap {
+}
+
+.inside-layout {
+    height: 24px;
+}
+
+.app-name {
+    width: 400px;
+    left: calc(50% - 200px);
+}
+
+.first-col, .second-col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.first-col {
+    margin-right: 20px;
+    width: 396px;
+}
+
+.second-col {
+    width: 396px;
+}
+
+.block {
+    border: 1px solid rgba(233, 233, 233, 0.875);
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 396px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+.wide-block {
+    width: 580px;
+}
+
+.two-col-block {
+    width: 100%;
+}
+
+.meta {
+    padding: 20px;
+    border-bottom: 1px solid rgba(233, 233, 233, 0.675);
+}
+
+.single-meta-block .meta {
+    border-bottom: none;
+}
+
+.headline-remark {
+    float: right;
+    color: #c7c6c2;
+    font-size: 14px;
+}
+
+.headline {
+    font-size: 21px;
+    font-weight: 700;
+    color: #000;
+}
+
+.desc {
+    font-size: 16px;
+    color: #797979;
+    margin-top: 10px;
+    line-height: 21px;
+}
+
+.desc a {
+    color: #797979;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(121, 121, 121, 0.675);
+    margin-left: 0 !important;
+}
+
+.desc a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.675);
+}
+
+.desc p {
+    display: inline-block;
+    max-width: 540px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.desc img {
+    width: 396px;
+    display: inline-block;
+    height: 228px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.contents {
+    width: 100%;
+    height: 396px;
+}
+
+.wide-block .contents {
+    height: 500px;
+}
+
+.image {
+}
+
+.image img {
+    width: 396px;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.wide-block img {
+    width: 580px;
+    height: 500px;
+}
+
+.simple-state-selector {
+    margin-top: 20px;
+}
+
+.active-ss {
+    background: rgba(233, 233, 233, 0.375);
+}
+
+.got-it {
+    font-family: Tahoma;
+    padding: 10px 30px;
+    color: #a4a5a6;
+    text-align: center;
+    -webkit-user-select: none;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    border: 1px solid transparent;
+    background: rgba(217, 217, 217, 0.375);
+    float: right;
+    position: absolute;
+    top: 8px;
+    width: 200px;
+    margin-left: calc(560px + 20px + 396px - 200px - 30px - 30px);
+}
+
+.got-it:hover {
+    background: rgba(217, 217, 217, 0.675);
+    color: #797979;
+    cursor: pointer;
+}
+
+.ss-button {
+    padding: 15px 20px 15px 0px;
+    border-radius: 4px;
+}
+
+.promo-layout {
+    padding: 20px 15px;
+}
+
+
+/* App buttons */
+
+.app-button {
+    width: 239px;
+}
+
+.app-button-link:nth-child(odd) {
+    margin-right: 7px;
+}
+
+.app-button-link:nth-child(1n+3) .app-button {
+    margin-top: 7px;
+}

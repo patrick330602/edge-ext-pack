@@ -1,0 +1,202 @@
+.ui_selector {
+    font-family: Tahoma;
+}
+
+.ui_selector .select {
+    color: rgba(0, 0, 0, 0.675);
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(223, 233, 233, 0.75);
+    padding: 15px;
+    width: 202px;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-radius: 4px;
+    vertical-align: top;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #F5F5F5, #EFEFEF);
+}
+
+.ui_selector .select .detected-ico {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/ui_elements/eye.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -26px;
+}
+
+.ui_selector .select:hover {
+    border: 1px solid rgba(233, 233, 233, 0.85);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+.ui_selector .select:active, .ui_selector .active {
+    box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+    border: 1px solid rgba(233, 233, 233, 0.75) !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #f2f2f2;
+}
+
+.sliding-text {
+    position: relative
+}
+
+.ui_selector .options {
+    margin-left: 0px;
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid rgba(223, 223, 223, 0.75);
+    width: 232px;
+    overflow: hidden;
+    max-height: 313px;
+    position: absolute;
+    font-size: 12px;
+    box-shadow: 0 3px 12px rgba(28, 29, 33, 0.075);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: none;
+}
+
+.ui_selector .options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 232px;
+}
+
+.ui_selector .options ul .group,
+.ui_selector .options ul .group:hover,
+.ui_selector .options ul .group.whenHover {
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.675);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(239, 239, 239, 0.475);
+    cursor: default;
+}
+
+.ui_selector .options ul li {
+    padding: 15px;
+    -webkit-user-select: none;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.group-element {
+    position: relative;
+    left: 6px;
+}
+
+.options ul .search-li, .options ul .search-li:hover {
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(233, 233, 233, 0.675) !important;
+    cursor: default !important
+}
+
+.options ul .search-li .dd-search {
+}
+
+.dd-search .dd-input {
+    padding: 15px;
+    padding-left: 45px;
+    width: 182px;
+    border: none;
+    font-family: Tahoma;
+    text-align: left;
+    color: #2b2b2b;
+    font-size: 14px;
+    background-image: url(../../images/ui_elements/search_dd.png);
+    background-position: 15px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+    .dd-search .dd-input:focus {
+        -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+        outline: none;
+        text-align: left;
+    }
+
+.dd-input::-webkit-input-placeholder {
+    color: #c7c6c2
+}
+
+.dd-input:focus::-webkit-input-placeholder {
+    color: #d9d9d9
+}
+
+.search-failed-plaque {
+    text-align: center;
+    padding: 20px;
+    color: #a4a5a6;
+    font-size: 16px;
+}
+
+.ui_selector .options ul li.whenHover {
+    cursor: pointer;
+    background: rgba(48, 129, 204, 0.225);
+    color: #2B2B2B;
+    text-align: center;
+}
+
+.ui_selector .options ul li.option_selected {
+    cursor: pointer;
+    background: #3081CC;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.rm-recent {
+    display: inline-block;
+    float: right;
+    width: 12px;
+    height: 12px;
+    background: url(../../images/ui_elements/remove_idle@2x.png);
+    opacity: 0.325;
+    -webkit-transition: all 475ms cubic-bezier(0.23, 1, 0.32, 1);
+    position: relative;
+    top: 3px;
+    background-size: 12px;
+    -webkit-filter: grayscale(100%);
+}
+
+.option_selected .rm-recent {
+    -webkit-filter: grayscale(0%);
+}
+
+.rm-recent:hover {
+    opacity: 1.0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .dd-search .dd-input {
+        background-image: url(../../images/ui_elements/search_dd@2x.png);
+    }
+}
+
+/* === Narrow version === */
+
+.it-narrow .select {
+    width: 127px;
+}
+
+.it-narrow .options, .it-narrow .options ul {
+    width: 137px;
+}
+
+.it-narrow .options .dd-input {
+    width: 96px;
+}

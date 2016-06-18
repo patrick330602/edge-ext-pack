@@ -1,0 +1,274 @@
+{
+	"extensionName": {
+		"description": "The name for the extension",
+		"message": "Mouse Gestures"
+	},
+	"extensionDescription": {
+		"description": "The description for the extension",
+		"message": "An extension for Microsoft Edge that allows customers to perform basic browsing tasks by right-clicking and then gesturing with the mouse. For example, right-click and hold, then move the mouse down and to the right to close the current tab, or move the mouse right to left to go back to the previous page."
+	},
+	"browserActionTitle": {
+		"description": "The text when mouse hover on extension icon",
+		"message": "Mouse Gestures"
+	},
+	"optionsPageHeadTitle": {
+		"description": "The header title for options page",
+		"message": "Mouse Gestures"
+	},
+	"optionsPageTitle": {
+		"description": "The title for Mouse Gesture options page",
+		"message": "Mouse Gestures"
+	},
+	"settingTabTitle": {
+		"description": "The title for Mouse Gesture setting page",
+		"message": "Settings"
+	},
+	"feedbackTabTitle": {
+		"description": "The title for Feedback page",
+		"message": "Feedback"
+	},
+	"aboutTabTitle": {
+		"description": "The title for about tab",
+		"message": "About"
+	},
+	"settingTabEnableMouseGestureCheckbox": {
+		"description": "The name of enable mouse gestures setting entry",
+		"message": "Turn on Mouse Gestures"
+	},
+	"settingTabEnablePenGestureCheckbox": {
+		"description": "The name of enable pen gestures setting entry",
+		"message": "Turn on Surface Pro pen gestures"
+	},
+	"settingTabGestureOptionsTitle": {
+		"description": "Title of gestures options group",
+		"message": "Mouse Gestures Mapping"
+	},
+	"settingTabGesturesTips": {
+		"description": "Content of gestures tips",
+		"message": "To use the extension, right-click on a web page then gesture with the mouse"
+	},
+	"settingTabBasicGestureTitle": {
+		"description": "Title of basic gesture group",
+		"message": "Basic Gestures"
+	},
+	"settingTabAdvancedGestureTitle": {
+		"description": "Title of advanced gesture group",
+		"message": "Advanced Gestures"
+	},
+	"settingTabResetButton": {
+		"description": "Reset-to-default button",
+		"message": "Reset to default settings"
+	},
+	"settingTabHelpLinkText": {
+		"description": "Text for help link",
+		"message": "Mouse Gestures Help"
+	},
+	"resetConfirmModalTitle": {
+		"description": "Content for reset confirm dialog",
+		"message": "Do you want to reset the settings to default?"
+	},
+	"resetConfirmModalCancelButton": {
+		"description": "The content for reset confirm modal cancel button",
+		"message": "Cancel"
+	},
+	"resetConfirmModalConfirmButton": {
+		"description": "The content for reset confirm modal confirm button",
+		"message": "OK"
+	},
+	"actionOpenLinkInNewTab": {
+		"description": "The open link in new tab action",
+		"message": "Open Link in New Tab"
+	},
+	"actionNoMatch": {
+		"description": "Text for no matched action",
+		"message": "No Action"
+	},
+	"actionBack": {
+		"description": "The back action",
+		"message": "Back"
+	},
+	"actionForward": {
+		"description": "The forward action",
+		"message": "Forward"
+	},
+	"actionScrollToTop": {
+		"description": "The scroll to top action",
+		"message": "Scroll to Top"
+	},
+	"actionScrollToBottom": {
+		"description": "The scroll to bottom action",
+		"message": "Scroll to Bottom"
+	},
+	"actionScrollLeft": {
+		"description": "The scroll left action",
+		"message": "Scroll Left"
+	},
+	"actionScrollRight": {
+		"description": "The scroll right action",
+		"message": "Scroll Right"
+	},
+	"actionScrollUp": {
+		"description": "The scroll up action",
+		"message": "Scroll Up"
+	},
+	"actionScrollDown": {
+		"description": "The scroll down action",
+		"message": "Scroll Down"
+	},
+	"actionOpenNewTab": {
+		"description": "The open new tab action",
+		"message": "Open New Tab"
+	},
+	"actionCloseCurrentTab": {
+		"description": "The close current tab action",
+		"message": "Close Current Tab"
+	},
+	"actionRefreshCurrentTab": {
+		"description": "The refresh current tab action",
+		"message": "Refresh Current Tab"
+	},
+	"actionCloseAllTabs": {
+		"description": "The close all tabs action",
+		"message": "Close All Tabs"
+	},
+	"actionCloseAllTabsExceptCurrent": {
+		"description": "The close all tabs except current action",
+		"message": "Close All Tabs Except Current"
+	},
+	"actionStopLoading": {
+		"description": "The stop loading action",
+		"message": "Stop Loading"
+	},
+	"aboutTabContentTitle": {
+		"description": "The title for about tab content",
+		"message": "About this extension"
+	},
+	"aboutTabExtensionNameAndVersion": {
+		"description": "The name and version for about tab extension",
+		"message": "Mouse Gestures 0.2.16.8501"
+	},
+	"aboutTabCopyrightContentLine1": {
+		"description": "The content line1 for copyright option",
+		"message": "&copy 2016 Microsoft Corporation."
+	},
+	"aboutTabCopyrightContentLine2": {
+		"description": "The content line2 for copyright option",
+		"message": "All rights reserved."
+	},
+	"aboutTabMicrosoftServiceLicenseContent": {
+		"description": "The content for microsoft service license option",
+		"message": "Microsoft Service License"
+	},
+	"aboutTabMicrosoftPrivacyDisclaimer": {
+		"description": "The content for privacy disclaimer option",
+		"message": "Microsoft Privacy Disclaimer"
+	},
+	"aboutTabChangeLogTitle": {
+		"description": "Title of change log section",
+		"message": "Change log"
+	},
+	"enableSendTelemetryCheckboxLabel": {
+		"description": "Text of the checkbox of sending telemetry data",
+		"message": "Send telemetry data to Microsoft to help improve this extension"
+	},
+	"sendTelemetryDescription": {
+		"description":"Text of telemetry data description",
+		"message": "Anonymous usage data will be sent back to Microsoft, including how you're using the gestures and settings. We don't collect personal identifiable information."
+	},
+	"feedbackKindTitle": {
+		"description":"Text above feedback text box",
+		"message": "We appreciate your feedback. What kind of feedback is it?"
+	},
+	"feedbackTabFeedbackKindSuggestionLabel": {
+		"description": "Text of feedback type Suggestion",
+		"message": "Suggestion"
+	},
+	"feedbackTabFeedbackKindProblemLabel": {
+		"description": "Text of feedback type Problem",
+		"message": "Problem"
+	},
+	"feedbackTabFeedbackCommentTextAreaPlaceholder": {
+		"description": "Initial text inside the feedback text box",
+		"message": "Please enter your feedback here. ( Please do not enter any personal information in the information below such as email address, phone number etc. )"
+	},
+	"feedbackTabEmailInputPlaceholder": {
+		"description": "Text of include email address",
+		"message": "Include email address"
+	},
+	"includeEmailCheckboxLabel": {
+		"description": "The content for include email checkbox label",
+		"message": "Add email address"
+	},
+	"feedbackTabFeedbackSubmitButton": {
+		"description": "Text of the send button",
+		"message": "Send feedback"
+	},
+	"successSendFeedbackModalTitle": {
+		"description": "Content for sending feedback success state",
+		"message": "Thanks for your feedback! "
+	},
+	"failSendFeedbackModalTitle": {
+		"description": "Content for sending feedback failed state",
+		"message": "Sorry we can't submit feedback now, please try later."
+	},
+	"changeLog_0_1_16_10501_Line0": {
+		"description": "The content for change log line1 for version 0.1.16.10501",
+		"message": "Support basic browser actions by mouse gestures"
+	},
+	"changeLog_0_1_16_10501_Line1": {
+		"description": "The content for change log line2 for version 0.1.16.10501",
+		"message": "Support click-and-drag to open URL in new tab"
+	},
+	"changeLog_0_2_16_8501_Line0": {
+		"description": "The content for change log line0 for version 0.2.16.8501",
+		"message": "Support Surface Pro pen gestures"
+	},
+	"changeLog_0_2_16_8501_Line1": {
+		"description": "The content for change log line1 for version 0.2.16.8501",
+		"message": "Optimize mouse gestures algorithm"
+	},
+	"applySettingAlertText": {
+		"description": "The text for setting save",
+		"message": "Settings saved successfully"
+	},
+	"resetSettingAlertText": {
+		"description": "The text for default setting restore",
+		"message": "Default Mouse Gestures settings recovered successfully"
+	},
+	"upgradeConfirmModalContentLine1": {
+		"description": "Content line 1 for upgrade confirm dialog content",
+		"message": "Mouse Gestures has a new version, please upgrade to the latest version. "
+	},
+	"upgradeConfirmModalContentLine2": {
+		"description": "Content line 2 for upgrade confirm dialog content",
+		"message": "Upgrade steps:"
+	},
+	"upgradeConfirmModalContentLine3": {
+		"description": "Content line 3 for upgrade confirm dialog content",
+		"message": "1. Click \"OK\" button to go to the extension selfhost page and download the latest version of mouse gestures extension"
+	},
+	"upgradeConfirmModalContentLine4": {
+		"description": "Content line 4 for upgrade confirm dialog content",
+		"message": "2. Remove current version then install the latest version of mouse gestures"
+	},
+	"upgradeConfirmModalCancelButton": {
+		"description": "The content for upgrade confirm modal cancel button",
+		"message": "Cancel"
+	},
+	"upgradeConfirmModalConfirmButton": {
+		"description": "The content for upgrade confirm modal confirm button",
+		"message": "OK"
+	},
+	"ftuPageTitle": {
+		"description": "The title for first time use page",
+		"message": "Mouse Gestures Welcome Page"
+	},
+	"ftuPageRestartTip": {
+		"description": "The content for restart tip in first time use page",
+		"message": "Attention: To ensure Mouse Gestures work well, you need to restart Microsoft Edge after installation."
+	},
+	"ftuPageSlide1Content": {
+		"description": "The content for slide1 of first time use page",
+		"message": "Mouse Gestures is an extension for Microsoft Edge that allows customers to perform basic browsing tasks by right-clicking and then gesturing with the mouse. "
+	}
+}

@@ -1,0 +1,274 @@
+{
+	"extensionName": {
+		"description": "The name for the extension",
+		"message": "鼠标手势"
+	},
+	"extensionDescription": {
+		"description": "The description for the extension",
+		"message": "通过鼠标手势扩展，用户可以完成基本的Microsoft Edge浏览器操作。例如按住鼠标右键画一个“L”就可以关闭当前Tab页, 或者移动鼠标从右到左画一条直线就可以返回到之前的页面。用户可以自定义鼠标手势。"
+	},
+	"browserActionTitle": {
+		"description": "The text when mouse hover on extension icon",
+		"message": "鼠标手势"
+	},
+	"optionsPageHeadTitle": {
+		"description": "The header title for options page",
+		"message": "鼠标手势"
+	},
+	"optionsPageTitle": {
+		"description": "The title for Mouse Gesture options page",
+		"message": "鼠标手势"
+	},
+	"settingTabTitle": {
+		"description": "The title for Mouse Gesture setting page",
+		"message": "设置"
+	},
+	"feedbackTabTitle": {
+		"description": "The title for Feedback page",
+		"message": "反馈"
+	},
+	"aboutTabTitle": {
+		"description": "The title for about tab",
+		"message": "关于"
+	},
+	"settingTabEnableMouseGestureCheckbox": {
+		"description": "The name of enable mouse gestures setting entry",
+		"message": "启用鼠标手势"
+	},
+	"settingTabEnablePenGestureCheckbox": {
+		"description": "The name of enable pen gestures setting entry",
+		"message": "启用Surface Pro触控笔手势"
+	},
+	"settingTabGestureOptionsTitle": {
+		"description": "Title of gestures options group",
+		"message": "鼠标手势设置"
+	},
+	"settingTabGesturesTips": {
+		"description": "Content of gestures tips",
+		"message": "在浏览窗口中按住鼠标右键滑出一个轨迹即可使用鼠标手势"
+	},
+	"settingTabBasicGestureTitle": {
+		"description": "Title of basic gesture group",
+		"message": "基本手势"
+	},
+	"settingTabAdvancedGestureTitle": {
+		"description": "Title of advanced gesture group",
+		"message": "高级手势"
+	},
+	"settingTabResetButton": {
+		"description": "Reset-to-default button",
+		"message": "重置为默认设置"
+	},
+	"settingTabHelpLinkText": {
+		"description": "Text for help link",
+		"message": "鼠标手势帮助"
+	},
+	"resetConfirmModalTitle": {
+		"description": "Content for reset confirm dialog",
+		"message": "你确定要重置为默认设置吗？"
+	},
+	"resetConfirmModalCancelButton": {
+		"description": "The content for reset confirm modal cancel button",
+		"message": "取消"
+	},
+	"resetConfirmModalConfirmButton": {
+		"description": "The content for reset confirm modal confirm button",
+		"message": "确定"
+	},
+	"actionOpenLinkInNewTab": {
+		"description": "The open link in new tab action",
+		"message": "在新标签页中打开此链接"
+	},
+	"actionNoMatch": {
+		"description": "Text for no matched action",
+		"message": "无效动作"
+	},
+	"actionBack": {
+		"description": "The back action",
+		"message": "后退"
+	},
+	"actionForward": {
+		"description": "The forward action",
+		"message": "前进"
+	},
+	"actionScrollToTop": {
+		"description": "The scroll to top action",
+		"message": "滑动到顶端"
+	},
+	"actionScrollToBottom": {
+		"description": "The scroll to bottom action",
+		"message": "滑动到底部"
+	},
+	"actionScrollLeft": {
+		"description": "The scroll left action",
+		"message": "左滑"
+	},
+	"actionScrollRight": {
+		"description": "The scroll right action",
+		"message": "右滑"
+	},
+	"actionScrollUp": {
+		"description": "The scroll up action",
+		"message": "上滑"
+	},
+	"actionScrollDown": {
+		"description": "The scroll down action",
+		"message": "下滑"
+	},
+	"actionOpenNewTab": {
+		"description": "The open new tab action",
+		"message": "打开新标签页"
+	},
+	"actionCloseCurrentTab": {
+		"description": "The close current tab action",
+		"message": "关闭当前页"
+	},
+	"actionRefreshCurrentTab": {
+		"description": "The refresh current tab action",
+		"message": "刷新当前页"
+	},
+	"actionCloseAllTabs": {
+		"description": "The close all tabs action",
+		"message": "关闭所有标签页"
+	},
+	"actionCloseAllTabsExceptCurrent": {
+		"description": "The close all tabs except current action",
+		"message": "关闭除当前页之外的所有标签页"
+	},
+	"actionStopLoading": {
+		"description": "The stop loading action",
+		"message": "停止加载"
+	},
+	"aboutTabContentTitle": {
+		"description": "The title for about tab content",
+		"message": "关于本扩展"
+	},
+	"aboutTabExtensionNameAndVersion": {
+		"description": "The name and version for about tab extension",
+		"message": "鼠标手势 0.2.16.8501"
+	},
+	"aboutTabCopyrightContentLine1": {
+		"description": "The content line1 for copyright option",
+		"message": "&copy 2016 Microsoft Corporation."
+	},
+	"aboutTabCopyrightContentLine2": {
+		"description": "The content line2 for copyright option",
+		"message": "All rights reserved."
+	},
+	"aboutTabMicrosoftServiceLicenseContent": {
+		"description": "The content for microsoft service license option",
+		"message": "微软服务声明"
+	},
+	"aboutTabMicrosoftPrivacyDisclaimer": {
+		"description": "The content for privacy disclaimer option",
+		"message": "微软隐私声明"
+	},
+	"aboutTabChangeLogTitle": {
+		"description": "Title of change log section",
+		"message": "更新历史"
+	},
+	"enableSendTelemetryCheckboxLabel": {
+		"description": "Text of the checkbox of sending telemetry data",
+		"message": "发送数据到微软以帮助我们改进本扩展"
+	},
+	"sendTelemetryDescription": {
+		"description":"Text of telemetry data description",
+		"message": "匿名数据将发送给微软，包括您如何使用鼠标手势和如何进行设置。我们不会收集与用户身份相关的信息。"
+	},
+	"feedbackKindTitle": {
+		"description":"Text above feedback text box",
+		"message": "感谢您提供反馈，您的反馈类型是?"
+	},
+	"feedbackTabFeedbackKindSuggestionLabel": {
+		"description": "Text of feedback type Suggestion",
+		"message": "建议"
+	},
+	"feedbackTabFeedbackKindProblemLabel": {
+		"description": "Text of feedback type Problem",
+		"message": "问题"
+	},
+	"feedbackTabFeedbackCommentTextAreaPlaceholder": {
+		"description": "Initial text inside the feedback text box",
+		"message": "请在此输入您的反馈。 （请不要输入个人信息例如邮件地址，电话号码等。）"
+	},
+	"feedbackTabEmailInputPlaceholder": {
+		"description": "Text of include email address",
+		"message": "添加邮箱地址"
+	},
+	"includeEmailCheckboxLabel": {
+		"description": "The content for include email checkbox label",
+		"message": "包括电子邮箱地址"
+	},
+	"feedbackTabFeedbackSubmitButton": {
+		"description": "Text of the send button",
+		"message": "发送反馈"
+	},
+	"successSendFeedbackModalTitle": {
+		"description": "Content for sending feedback success state",
+		"message": "感谢您的反馈!"
+	},
+	"failSendFeedbackModalTitle": {
+		"description": "Content for sending feedback failed state",
+		"message": "很抱歉我们现在无法发送反馈，请稍后再试。"
+	},
+	"changeLog_0_1_16_10501_Line0": {
+		"description": "The content for change log line1 for version 0.1.16.10501",
+		"message": "支持基本鼠标手势"
+	},
+	"changeLog_0_1_16_10501_Line1": {
+		"description": "The content for change log line2 for version 0.1.16.10501",
+		"message": "支持通过拖拽打开链接"
+	},
+	"changeLog_0_2_16_8501_Line0": {
+		"description": "The content for change log line0 for version 0.2.16.8501",
+		"message": "支持Surface Pro触控笔手势"
+	},
+	"changeLog_0_2_16_8501_Line1": {
+		"description": "The content for change log line1 for version 0.2.16.8501",
+		"message": "优化鼠标手势算法"
+	},
+	"applySettingAlertText": {
+		"description": "The text for setting save",
+		"message": "设置保存成功"
+	},
+	"resetSettingAlertText": {
+		"description": "The text for default setting restore",
+		"message": "恢复默认鼠标手势成功"
+	},
+	"upgradeConfirmModalContentLine1": {
+		"description": "Content line 1 for upgrade confirm dialog content",
+		"message": "鼠标手势有新版本，请尽快升级到最新版本。"
+	},
+	"upgradeConfirmModalContentLine2": {
+		"description": "Content line 2 for upgrade confirm dialog content",
+		"message": "升级步骤："
+	},
+	"upgradeConfirmModalContentLine3": {
+		"description": "Content line 3 for upgrade confirm dialog content",
+		"message": "1.点击“确定”按钮到扩展的selfhost页面，下载最新的鼠标手势"
+	},
+	"upgradeConfirmModalContentLine4": {
+		"description": "Content line 4 for upgrade confirm dialog content",
+		"message": "2.移除当前版本，然后安装最新版本的鼠标手势"
+	},
+	"upgradeConfirmModalCancelButton": {
+		"description": "The content for upgrade confirm modal cancel button",
+		"message": "取消"
+	},
+	"upgradeConfirmModalConfirmButton": {
+		"description": "The content for upgrade confirm modal confirm button",
+		"message": "确认"
+	},
+	"ftuPageTitle": {
+		"description": "The title for first time use page",
+		"message": "鼠标手势欢迎页"
+	},
+	"ftuPageRestartTip": {
+		"description": "The content for restart tip in first time use page",
+		"message": "提示：为确保鼠标手势的正常使用，安装后你需要重启Microsoft Edge。"
+	},
+	"ftuPageSlide1Content": {
+		"description": "The content for slide1 of first time use page",
+		"message": "Microsoft Edge鼠标手势，按住鼠标右键滑出轨迹，完成基本的浏览器操作。"
+	}
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breeze - Options</title>
+	<style type="text/css">
+	@font-face {
+		font-family: SegoeUILight;
+		src: url('fonts/segoeuil.ttf');
+		src: url('fonts/segoeuil.woff');
+	}
+
+	@font-face {
+		font-family: SegoeUI;
+		src: url('fonts/segoeui.ttf');
+		src: url('fonts/segoeui.woff');
+	}
+
+	@font-face {
+		font-family: SegoeUIBold;
+		src: url('fonts/segoeuib.ttf');
+		src: url('fonts/segoeuib.woff');
+	}
+	
+	body{
+		font-family: SegoeUI;
+		margin: 0px !important;
+		padding: 0px !important;
+		width: 100% !important;
+		height: 100vh !important;
+	}
+
+	hr{
+		display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid #000;
+	    margin: 1em 0;
+	    padding: 0; 
+	}
+
+	table{
+		width: 100%;
+	}
+
+	td{
+		padding: 8px;
+	}
+
+	.main_content{
+		width: 400px;
+		margin: 10px;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="main_content" id="main_content">
+		<span style="font-size:150%;">Breeze options</span>
+		<hr/>
+		Main page: (Leave empty to use the extension)<br/>
+		<input type="text" id="main_page" style="width:65%;" />
+		<input type="button" value="Save main page" id="save_main_page" style="width:30%;" />
+		<hr/>
+		Shortcuts:
+		<table id="shortcuts_opts">
+			<tr>
+				<td style="width:20%;"><b>Word</b></td>
+				<td style="width:65%;"><b>...goes to link</b></td>
+				<td style="width:15%;"><b>Del</b></td>
+			</tr>
+		</table>
+		<input type="text" id="shortcuts_word" style="width:18%;"/>
+		<input type="text" id="shortcuts_value" style="width:65%;"/>
+		<input type="button" value="Add" id="save_shortcuts" style="width:10%;"/>
+		<hr/>
+		Tags:
+		<table id="tags_opts">
+			<tr>
+				<td style="width:20%;"><b>Tag</b></td>
+				<td style="width:65%;"><b>...uses the link</b></td>
+				<td style="width:15%;"><b>Del</b></td>
+			</tr>
+		</table>
+		<input type="text" id="tags_tag" style="width:18%;"/>
+		<input type="text" id="tags_value" style="width:65%;"/>
+		<input type="button" value="Add" id="save_tags" style="width:10%;"/>
+
+		<br/>
+		<hr/>
+		This extension is and will always be free!<br/>
+		If you want to support me, make a donation :)<br/>
+		<br/>
+
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="EM6J5MPUFE38S">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/pt_PT/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+
+<script type="text/javascript" src="jquery-3.0.0.js"></script>
+<script type="text/javascript" src="options.js"></script>
+</body>
+</html>

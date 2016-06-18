@@ -1,0 +1,45 @@
+﻿{
+    "extensionName": {
+        "message": "Microsoft Translator",
+	"description": "Microsoft Translator"
+    },
+    "extensionDescription": {
+        "message": "Traduisez des pages en langue étrangères pour plus de 50 langues en téléchargeant l'extension Microsoft Translator. L'icône de traduction apparaîtra dans la barre d'adresse lorsque vous visitez une page web en langue étrangère dans Microsoft Edge. Cliquez sur l'icône pour traduire instantanément la page web dans votre langue préférée.",
+        "description": "Translate foreign language pages for 50+ languages by downloading the Microsoft Translator extension. The translation icon will appear in the address bar when visiting a foreign-language webpage in Microsoft Edge. Click on the icon to instantly translate the webpage to your preferred language."
+    },
+    "popupTitle": {
+        "message": "Traduire cette page",
+        "description": "Translate this page"
+    },
+    "showOriginalButton": {
+        "message": "Afficher la page originale",
+        "description": "Show original page"
+    },
+    "optionsTitle": {
+        "message": "Microsoft Translator Options"
+    },
+    "optionsTranslateTo": {
+        "message": "Translate pages to"
+    },
+    "optionsChooseLang": {
+        "message": "Don't translate sites in the following languages:"
+    },
+    "alwaysTranslateLabel": {
+        "message": "Always translate foreign language sites without asking"
+    },
+    "feedback": {
+        "message": "Feedback"
+    },
+    "selectAll": {
+        "message": "Select All"
+    },
+    "translateButton": {
+        "message": "Translate this page with Microsoft Translator"
+    },
+    "options": {
+        "message": "Options"
+    },
+	"alwaysTranslatePopup": {
+        "message": "Always translate foreign language sites"
+    }
+}

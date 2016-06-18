@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/options.css">
+  <title data-localize="optionsTitle"></title>
+</head>
+
+<body>
+  <div id=main>
+    <div class="errorPanel">
+      <div id="error" class="error"></div>
+    </div>
+
+    <div id=option1 class="clear-fix">
+      <img id="logo" src="assets/icon48.png" style="float: left; padding-right: 10px; padding-top: 0">
+      <h1 class="headingtext" data-localize="optionsTranslateTo" style="display: none"></h1>
+      <h1 data-localize="extensionName" style="padding-top: 10px;"></h1>
+      <select id="languages" style="display: none"></select>
+    </div>
+
+    <hr id=hr1>
+
+    <div id=option3 class="clear-fix">
+      <input type="checkbox" id="alwaysTranslate"><label for="alwaysTranslate"><span></span><p id="alwaysTranslateLabel" data-localize="alwaysTranslateLabel"></p></label>
+    </div>
+
+    <div id=option2>
+      <h2 class=headingtext data-localize="optionsChooseLang"></h2>
+
+      <table id=langtable></table>
+    </div>
+
+    <br><br>
+
+    <div id=footer>
+      <div id="uservoice">
+        <a href="http://aka.ms/TranslatorEdgeUV" class=headingtext data-localize="feedback"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="backgroundScriptsAPIBridge.js"></script>
+  <script src="options.min.js"></script>
+</body>
+</html>

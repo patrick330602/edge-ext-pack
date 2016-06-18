@@ -1,0 +1,2917 @@
+::-webkit-scrollbar {
+    left: -100px;
+    width: 12px !important;
+}
+
+
+.login-container .startflow-background:before{
+      background-image: linear-gradient(36deg, #000000 0%, transparent 100%) !important;
+}
+
+.login-container .startflow{
+  margin-top: -25px !important;
+}
+
+.js-login-form .padding-axl{
+  padding: 5px 16px 16px 16px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  opacity: 0.6 !important;
+}
+
+.js-login-form .btn-positive{
+  border-radius: 0px !important;
+text-transform: uppercase !important;
+font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+font-weight: 600 !important;
+font-size: 17px !important !important;
+padding: 12px 0 !important;
+}
+
+.js-login-form .divider-bar{
+  display: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0 !important;
+    transition: all .3s ease-in-out;
+}
+
+.js-login-form {
+    font-weight: 600 !important;
+}
+
+.app-signin-form {
+    display: block;
+    left: 35% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+    right: initial !important;
+}
+
+* {
+    outline: 0 !important;
+}
+
+.column-drag-handle {
+    left: 0 !important;
+    opacity: 0.1;
+    top: 5px !important;
+}
+
+.column-title,
+.column-title-back {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.column-head-title {
+    float: left;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.column-title .attribution {
+    display: block;
+    float: left;
+    font-weight: 500 !important;
+    margin-left: 5px;
+    opacity: 0.3;
+    overflow: hidden;
+}
+
+.js-column-content {
+    font-family: Arial, Verdana, sans-serif !important;
+}
+
+.column-settings-link {
+    opacity: 0.5;
+    transition: all .3s ease-in-out;
+}
+
+.is-options-open .column-settings-link,
+.column-settings-link:hover {
+    opacity: 1.0;
+}
+
+.js-column-options .txt-size--13,
+.js-column-options .txt-base-small,
+.js-search-filter .txt-base-small {
+    font-size: 13px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.js-search-results-header .js-search-filter .facet-subtitle {
+    padding-left: 18px !important;
+}
+
+.js-column-options .facet-subtitle,
+.js-search-filter .facet-subtitle {
+    font-weight: 600;
+    padding-top: 2px !important;
+    text-transform: uppercase;
+}
+
+.js-column-options .control-label,
+.js-search-filter .control-label {
+    font-weight: 500 !important;
+    text-align: left !important;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+
+.js-column-options .js-containing,
+.js-search-filter .js-containing {
+    border-radius: 0;
+    margin: 3px 0;
+    width: 100% !important;
+}
+
+.js-column-options .accordion-panel {
+    padding-left: 3px !important;
+}
+
+.js-column-options .control-group {
+    padding-bottom: 5px !important;
+}
+
+.search-input-perform-search,
+.search-input-clear-search,
+.search-input-spinner {
+    top: 20px !important;
+}
+
+.js-column-options .control-s,
+.js-search-filter .control-s {
+    padding: 0px !important;
+}
+
+.js-column-options input {
+    border-radius: 0 !important;
+}
+
+.js-column-options .facet-type-thumb-size .accordion-header {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.startflow-panel-rounded {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.js-login-form .form-legend {
+    border-bottom: 0 !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    padding-bottom: 12px !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px !important;
+opacity: 1.0 !important;
+}
+
+.js-login-form .input-prepend,
+.form-login-pwd {
+    width: 100%;
+}
+
+.js-login-form .input-prepend input {
+    border-radius: 0;
+    width: 100% !important;
+}
+
+.js-login-username,
+.js-login-password {
+    border: 0 !important;
+    border-radius: 0 !important;
+    outline: 0 !important;
+    width: 100% !important;
+}
+
+.btn-positive:focus,
+.btn-positive-alt:focus,
+.btn-fav.s-favorited:focus,
+.s-following .follow-btn:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.focus,
+.compose-header {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.compose-header {
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    height: 55px !important;
+    line-height: 38px !important;
+}
+
+.compose-header * {
+    left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.btn-login {
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    height: 35px !important;
+    margin-bottom: 10px !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+}
+
+.js-login-form .cf,
+.js-login-form .txt-regular {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.startflow-link {
+    text-decoration: none !important;
+}
+
+.js-login-form .txt-regular:hover,
+.js-login-forgot-password:hover {
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+.form-error-message {
+    border-radius: 0 !important;
+}
+
+.js-tweet-text {
+    font-weight: 400;
+}
+
+.nbfc {
+    font-weight: 500;
+}
+
+.column-options .button-tray {
+    border: 0;
+}
+
+.btn-options-tray .icon {
+    font-size: 12px !important;
+}
+
+.btn-options-tray .label {
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    transition: all .3s ease !important;
+}
+
+.btn-options-tray:hover,
+.btn-options-tray:focus {
+    opacity: 0.4;
+}
+
+.avatar,
+.compose-account.is-actionable,
+.prf-img {
+    border-radius: 50% !important;
+}
+
+.column-title-back {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    transition: all .1s ease-in-out !important;
+}
+
+.js-column-back i {
+    font-size: 13px !important;
+    top: 26px !important;
+}
+
+.js-column-back .js-tooltip-target {
+    font-weight: 600 !important;
+    margin-left: -4px !important;
+}
+
+.js-column-back .column-head-title {
+    float: none !important;
+}
+
+.js-detail-view-inline-text {
+    border: 0 !important;
+}
+
+.activity-header img {
+    border-radius: 50%;
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.avatar.pull-right.size24.margin-lm {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.icon.pull-right.activity-indicator {
+    border-radius: 50%;
+    font-size: 25px !important;
+    height: 48px;
+    line-height: 2em;
+    margin-top: -48px;
+    position: static;
+    text-align: center;
+    width: 48px;
+}
+
+.activity-icon-aligned.icon.pull-right.activity-indicator {
+    border-radius: 50%;
+    float: none !important;
+    font-size: 25px !important;
+    height: 48px;
+    line-height: 2em;
+    margin-top: 20px;
+    position: absolute;
+    text-align: center;
+    width: 48px;
+}
+
+.icon-small-context.pull-right {
+    border-radius: 50%;
+    float: none !important;
+    font-size: 25px !important;
+    height: 48px;
+    line-height: 2em;
+    margin-top: 22px;
+    position: absolute;
+    text-align: center;
+    width: 48px;
+}
+
+.margin-ts {
+    margin-top: -48px !important;
+}
+
+.icon.pull-right.icon-list {
+    border-radius: 0;
+    float: none !important;
+    font-size: 16px !important;
+    height: 0;
+    margin-left: 0;
+    margin-top: 4px !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    position: static;
+    width: 0;
+}
+
+.dropdown-menu {
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    z-index: 2 !important;
+}
+
+.drp-h-divider {
+    border-bottom: none !important;
+}
+
+.dropdown-menu li {
+    padding: 5px 0 !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.dropdown-menu .non-selectable-item {
+    font-weight: 400 !important;
+}
+
+.quoted-tweet {
+    border: 0 !important;
+}
+
+.js-media .is-video .video-overlay {
+    height: 100% !important;
+    left: 0 !important;
+    margin: 0 !important;
+    top: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.video-overlay .icon {
+    display: block;
+    font-size: 40px !important;
+    left: initial !important;
+    margin-left: auto;
+    position: relative!important;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.compose {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.btn-on-blue {
+    border: 0 !important;
+    border-radius: 0 !important;
+    float: left !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-send-button {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.compose-title-text {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.js-app-search-input {
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.compose .cf,
+.js-compose-message-header {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.js-quote-tweet-holder,
+.js-compose-text {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.js-compose-stay-open {
+    bottom: 7px !important;
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.compose-remember-state {
+    font-weight: 600;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.js-quote-tweet-remove i {
+    background-image: none !important;
+    left: -14px !important;
+    position: absolute !important;
+    top: 11px !important;
+}
+
+.js-quote-tweet-remove i:before {
+    -webkit-font-smoothing: antialiased !important;
+    content: '\f00d' !important;
+    font-family: tweetdeckregular !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+}
+
+.js-typeahead-recent-search-item.list-item,
+.js-typeahead-topic-item.list-item,
+.js-typeahead-recent-search-clear {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    height: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.js-typeahead-recent-search-clear:before {
+    -webkit-font-smoothing: antialiased;
+    content: '\f00d';
+    font-family: tweetdeckregular;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+
+.js-typeahead-user-item.list-item {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    transition: all .2s ease-in-out;
+}
+
+.recent-searches-fixed-list {
+    height: 100%;
+}
+
+.btn-neutral-negative:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+.column-title-edit-box {
+    border-radius: 0;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.js-poll a {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 2em;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.TwitterCard [data-poll-state=opened] .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--chart {
+    opacity: 1 !important;
+}
+
+.TwitterCard [data-poll-state=opened] .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-progress {
+    margin-left: 0 !important;
+}
+
+.js-modal-panel.s-tall-fixed,
+.js-mdl-content.horizontal-flow-container.mdl-content {
+    border-radius: 0;
+}
+
+.js-modal-panel.s-tall-fixed h3 {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600 !important;
+    padding: 0;
+    text-transform: uppercase !important;
+}
+
+.js-profile-columns {
+    margin-left: 10px !important;
+    width: calc(100% - 10px) !important;
+}
+
+.prf .lst-profile span {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    left: 40px !important;
+    position: absolute !important;
+    top: 8px !important;
+}
+
+.prf-meta {
+    display: block !important;
+    width: 520px !important;
+}
+
+.social-proof-container {
+    margin-left: 10px !important;
+    width: calc(100% - 10px) !important;
+}
+
+.js-action-follow.btn-relation-group.s-following button {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-action-follow.btn-relation-group.s-not-following button,
+.btn-back,
+.js-item-launch,
+.s-thats-you .follow-btn,
+.js-user-actions-menu.btn-alt,
+.js-accordion-item.js-account-settings-row,
+.js-action-header-button {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-action-follow.btn-relation-group.s-not-following button:hover,
+.btn-back:hover,
+.js-item-launch:hover,
+.s-thats-you .follow-btn:hover,
+.js-user-actions-menu.btn-alt:hover,
+.js-accordion-item.js-account-settings-row:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+.lst-launcher .js-item-launch a {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-item-launch i {
+    display: inline-block !important;
+    padding-left: 4px !important;
+}
+
+.prf-stats li {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-left: 10px !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.prf .lst-profile li {
+    width: 16.65% !important;
+}
+
+.prf-stats li:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+.prf .lst-profile i {
+    font-size: 34px !important;
+    margin-top: 8px !important;
+}
+
+.js-item-launch a {
+    border-right-width: 0 !important;
+}
+
+.lst-launcher span {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.js-add-column-search-input.search-input {
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    transition: all .2s ease-in-out;
+}
+
+.list-account,
+.list-twitter-list {
+    text-shadow: none !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-add-column.btn,
+.js-dismiss.btn,
+.js-account-action.btn,
+.js-modal-panel .btn.btn-positive {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.js-add-column.btn:hover,
+.js-dismiss.btn:hover,
+.js-account-action.btn:hover,
+.js-modal-panel .btn.btn-positive:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+.settings-modal .js-modal-panel {
+    border-radius: 0;
+}
+
+.list-link {
+    transition: all .2s ease-in-out;
+}
+
+.js-inline-reply {
+    margin: 0 !important;
+    overflow: visible;
+    padding: 0 !important;
+}
+
+.js-inline-reply .padding-axl {
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+.js-in-reply-to .tweet-body {
+    padding-bottom: 5px;
+}
+
+.js-in-reply-to .fullname {
+    font-weight: 400 !important;
+}
+
+.js-inline-reply .pull-left {
+    opacity: 0.6;
+}
+
+.compose-reply-tweet-remove {
+    right: -5px !important;
+    top: -6px !important;
+}
+
+.compose-reply-tweet-remove .icon-close {
+    font-size: 12px !important;
+    padding-top: 9px !important;
+    padding-right: 3px !important;
+}
+
+.compose-reply-tweet .tweet-body a {
+    color: #fff !important;
+}
+
+.compose-reply-tweet .tweet-body a:hover,
+.compose-reply-tweet .tweet-body a:focus {
+    color: #fff !important;
+    text-decoration: none !important;
+    opacity: 0.7 !important;
+}
+
+.compose-text-title {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+}
+
+.s-nonav .mdl-content li {
+    float: left !important;
+    line-height: 36px !important;
+    margin: 10px 1% -2px 0 !important;
+    width: 49% !important;
+}
+
+.s-nonav .mdl-content li a i {
+    font-size: 19px !important;
+    padding-top: 2px !important;
+}
+
+.mdl-content .lst-launcher span {
+    line-height: 39px !important;
+}
+
+.mdl-content .lst-launcher .attribution {
+    opacity: 0.5 !important;
+}
+
+.mdl-dismiss {
+    right: 20px !important;
+    top: 16px !important;
+}
+
+.mdl-content .js-left-column .js-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600 !important;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.js-modal .s-nonav {
+    height: 495px !important;
+}
+
+.mdl-content .js-left-column .selected .list-account,
+.selected .list-twitter-list {
+    padding: 15px;
+}
+
+.mdl-content .js-left-column .list-account,
+.list-twitter-list {
+    padding: 15px;
+}
+
+.mdl-content .js-left-column .js-list-container li {
+    margin: 10px !important;
+}
+
+.lst-group .selected {
+    background: transparent !important;
+}
+
+.mdl-content .search-input-list input {
+    height: 52px !important;
+}
+
+.mdl-content .search-input-control .icon,
+.mdl-content .js-perform-search i {
+    top: -13px !important;
+}
+
+.js-stream-item-content .padding-axl {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+a {
+    transition: all .1s ease-in-out !important;
+}
+
+.prf-header-inner-overlay {
+    height: 100% !important;
+}
+
+.prf-card-inner {
+    z-index: 9999 !important;
+}
+
+.prf .js-dismiss i {
+    background-image: none !important;
+}
+
+.prf .js-dismiss i:before {
+    -webkit-font-smoothing: antialiased !important;
+    content: '\f00d' !important;
+    font-family: tweetdeckregular !important;
+    font-size: 18px;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    opacity: 0.8;
+    position: absolute;
+    right: -10px;
+}
+
+.btn-compose .label {
+    font-size: 15px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-compose .icon-compose {
+    font-size: 17px !important;
+}
+
+.is-condensed .btn-compose .icon-compose {
+    font-size: 22px !important;
+    margin-left: 0px !important;
+}
+
+.app-header .app-search-in-popover .js-perform-search {
+    top: 14px !important;
+}
+
+.app-header .js-perform-search .search-input-control {
+    top: 20px !important;
+}
+
+[data-title='Expand']:after {
+    content: 'Tweeten' !important;
+    display: inline-block !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    padding-left: 10px !important;
+    padding-top: 15px !important;
+    font-size: 16px !important;
+}
+
+[data-title='Expand'] {
+    font-weight: 600;
+    height: 50px;
+    left: 0 !important;
+    position: fixed !important;
+    text-transform: uppercase;
+    top: -50px !important;
+    width: 180px;
+}
+
+.is-condensed [data-title='Expand'] {
+    text-align: center !important;
+    width: 30px !important;
+}
+
+[data-title='Expand'],
+[data-title='Expand']:hover {
+    opacity: 1.0 !important;
+}
+
+[data-title='Expand'] .icon-arrow-l-double:hover,
+[data-title='Expand'] .icon-arrow-r-double:hover {
+    opacity: 0.7;
+}
+
+.js-app-header {
+    -moz-transition: height 2s;
+    -o-transition: height 2s;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+}
+
+.app-header-inner {
+    -webkit-animation: slide .3s forwards;
+    -webkit-animation-iteration-count: 1;
+    animation: slide .3s forwards;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.btn-compose {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: background .2s ease-in-out;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+}
+
+.overlay-super {
+    z-index: 1 !important;
+}
+
+article[data-key^='favorite_'] .tweet-avatar {
+    margin-top: -18px !important;
+}
+
+article[data-key^='follow_'] .avatar {
+    margin-top: -18px !important;
+    overflow: hidden !important;
+}
+
+article .tweet-context.txt-small.txt-mute.padding-bs .nbfc {
+    font-size: 13px !important;
+}
+
+.activity-header.has-source-avatar .obj-left.item-img {
+    margin-top: 6px !important;
+    position: absolute !important;
+}
+
+.activity-header.has-source-avatar .nbfc {
+    margin-left: 58px !important;
+}
+
+.js-modals-container {
+    position: absolute !important;
+    z-index: 99999 !important;
+}
+
+.is-condensed .column-nav-link .icon {
+    font-size: 26px !important;
+}
+
+.js-app-header .js-column-nav-list ul,
+.js-app-header .js-column-nav-list li {
+    margin: 0 0 !important;
+}
+
+.js-app-header .column-nav-link .column-head-title {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding-bottom: 2px !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+}
+
+.js-app-header .column-nav-link .attribution {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 13px;
+    font-weight: 500 !important;
+    opacity: 0.3 !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+}
+
+.js-app-header .js-header-add-column .nbfc {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding-bottom: 2px !important;
+    text-transform: uppercase !important;
+}
+
+.app-search-fake {
+    box-shadow: none !important;
+}
+
+.app-search-fake i {
+    font-size: 17px !important;
+    padding-top: 2px !important;
+}
+
+.column-nav-flyout .column-head-title {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600 !important;
+    padding-right: 10px !important;
+    text-transform: uppercase !important;
+}
+
+.column-nav-flyout .attribution {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600 !important;
+    opacity: 0.6 !important;
+    padding-right: 10px !important;
+    text-transform: uppercase !important;
+}
+
+.column-title-back:hover,
+.column-title-back:focus {
+    opacity: 0.6;
+    text-decoration: none !important;
+}
+
+.cmp-file-upload {
+    visibility: hidden !important;
+}
+
+.js-account-manager-container .drawer-header-title {
+    float: left !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+}
+
+.js-account-manager-container .drawer-header {
+    border-bottom-style: none !important;
+    border-bottom-width: 0 !important;
+}
+
+.js-media-image-link:hover {
+    opacity: 1 !important;
+}
+
+.column-detail-level-2 .social-proof-for-tweet-title {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 15px !important;
+    padding-left: 13px !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+    border: 0px !important;
+}
+
+.column-detail-level-2 .social-proof-for-tweet-title b {
+    font-weight: 500 !important;
+}
+
+.s-profile {
+    height: 100% !important;
+    left: 0 !important;
+    position: inherit !important;
+    top: 0 !important;
+    width: 520px !important;
+}
+
+.prf .mdl-dismiss {
+    left: 6px !important;
+    margin: 20px !important;
+    right: 100% !important;
+    top: 0 !important;
+    z-index: 999999;
+}
+
+.s-profile .prf-stats,
+.s-profile .prf-stats li {
+    float: none !important;
+    width: calc(100% - 10px) !important;
+}
+
+.prf-header:after {
+    content: '' !important;
+    height: 100% !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.prf-stats a {
+    font-size: 13px !important;
+    padding: 15px 10px !important;
+}
+
+.prf-stats a strong {
+    float: right;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.prf-follow-state {
+    float: none !important;
+    width: 100% !important;
+}
+
+.js-follow-button {
+    width: 45.75% !important;
+}
+
+.s-profile .js-user-actions-menu {
+    margin-left: 10px !important;
+    width: 45.75% !important;
+}
+
+.s-profile .prf-actions .js-item-launch {
+    height: 45px !important;
+    margin-left: 8px !important;
+    margin-top: 10px !important;
+    text-align: left !important;
+    width: 236px !important;
+}
+
+.s-profile .prf-actions .js-item-launch i {
+    font-size: 19px !important;
+    margin-left: 8px !important;
+}
+
+.modal-content {
+    height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.js-accordion-item.js-account-settings-row {
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 10px !important;
+}
+
+.js-accordion-item .js-accordion-toggle-view {
+    padding-bottom: 10px !important;
+}
+
+.js-accordion-item.js-account-settings-row .padding-tm.padding-hxl {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 97% !important;
+    margin: 0 6px !important;
+    overflow: hidden;
+}
+
+.js-accordion-item.js-account-settings-row .account-stats li {
+    margin: 0 12px !important;
+    width: 90.3% !important;
+}
+
+.js-accordion-item.js-account-settings-row .account-stats li a {
+    border: 0 !important;
+    margin-bottom: 10px !important;
+    border-radius: 0 !important;
+    display: inline-flex !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    height: 37px !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out !important;
+    width: 100% !important;
+}
+
+.js-accordion-item.js-account-settings-row .account-stats li a .txt-base-largest {
+    float: right !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding-right: 20px !important;
+    padding-top: 12px !important;
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.js-accordion-item.js-account-settings-row .account-stats li a .txt-base-smallest {
+    font-weight: 600 !important;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+    text-transform: uppercase !important;
+}
+
+.js-accordion-item.js-account-settings-row .link-complex.block.cf {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    height: 45px !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.js-accordion-item.js-account-settings-row .link-complex.block.cf .txt-base-largest {
+    padding-top: 12px !important;
+}
+
+.js-accordion-item.js-account-settings-row .link-complex.block.cf i {
+    display: initial !important;
+    font-size: 19px !important;
+    margin-left: 8px !important;
+}
+
+.tweet-detail-actions {
+    padding: 10px 0 !important;
+}
+
+.column-navigator {
+    bottom: 220px !important;
+    top: 95px !important;
+}
+
+.js-column-nav {
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+.app-navigator .js-hide-drawer.is-selected {
+    border-radius: 0 !important;
+    transition: all .2s ease-in-out;
+}
+
+.app-navigator .nbfc {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding-bottom: 2px !important;
+    text-transform: uppercase !important;
+}
+
+.follow-combo .dropdown-menu {
+    left: 10px !important;
+    width: 208px !important;
+}
+
+.numbered-badge {
+    border-radius: 50% !important;
+    text-align: center !important;
+    width: 10px !important;
+}
+
+.btn,
+.js-login-form,
+.js-column-header,
+.js-column-options,
+.btn-options-tray .label,
+.js-search-filter {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.app-masthead,
+.app-info-panel,
+.dropdown-menu .drp-h-divider,
+.privacy-info,
+.column-number,
+.app-title,
+.column-type-icon,
+.with-nav-border-t:before,
+.js-login-form .add-on.with-emphasis,
+.js-reply-action .reply-triangle,
+a[rel='viewDetails'],
+.mdl-drag-handle,
+.column-nav-link:after,
+[data-title='Expand'] .nbfc,
+.is-condensed [data-title='Expand']:after {
+    display: none !important;
+}
+
+.stream-item,
+.column,
+.facet-type-thumb-size,
+.facet-type,
+.column-header,
+.column-header-temp,
+.js-detail-view-inline,
+.tweet-detail-actions,
+.js-tweet-detail,
+.tweet-stats,
+.with-column-divider-bottom,
+.accordion-divider-t {
+    border: 0 !important;
+}
+
+.js-column-options .control-s .controls,
+[data-title='Expand'] .obj-left,
+.is-condensed .js-column-nav-list ul,
+.tweet-detail-action-item,
+.js-search-results-header .control-s .controls {
+    margin: 0 !important;
+}
+
+.compose-title,
+.js-account-settings-accounts,
+.js-accordion-item.js-account-settings-row .link-complex.block.cf .obj-left {
+    margin-top: 10px !important;
+}
+
+.btn-options-tray span:hover,
+.btn-options-tray span:focus,
+.btn-neutral:hover .label,
+.btn-neutral-negative:hover .label,
+.btn-neutral-positive:hover .label,
+.btn-options-tray:hover .label,
+.link-complex:focus .link-complex-target,
+.link-complex:active .link-complex-target,
+.js-accordion-item.js-account-settings-row .link-complex.block.cf:hover .nbfcm {
+    text-decoration: none !important;
+}
+
+.app-navigator,
+.needs-scroll-bottom-offset.scroll-styled-h {
+    bottom: 0 !important;
+}
+
+.nbfc.txt-mute.txt-small,
+.tweet-context.txt-small.txt-mute.padding-bs {
+    padding-left: 58px !important;
+}
+
+.nbfc.txt-mute.txt-small i,
+.tweet-context.txt-small.txt-mute.padding-bs i {
+    left: 10px !important;
+}
+
+.js-inreply .tweet-context.txt-small.txt-mute.padding-bs i {
+    left: 15px !important;
+    top: -4px !important;
+}
+
+.js-typeahead-user-item.list-item:hover,
+.js-typeahead-recent-search-item.list-item:hover,
+.js-typeahead-topic-item.list-item:hover,
+.js-typeahead-recent-search-clear:hover,
+.js-poll a:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+.prf .lst-profile,
+.prf-stats,
+.s-nonav .mdl-content ul,
+.mdl-content .search-input-list,
+.is-condensed .btn-compose .btn-compose {
+    padding: 0 !important;
+}
+
+.s-nonav .mdl-content li a,
+.mdl-content .js-left-column .js-list-container {
+    width: 100% !important;
+}
+
+.btn-compose:hover,
+.app-navigator .js-hide-drawer.is-selected:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+article[data-key^='favorite_'] .account-link,
+article[data-key^='follow_'] .account-link,
+article[data-key^='retweet_'] .account-link,
+article[data-key^='retweeted_retweet_'] .account-link,
+article[data-key^='favorited_retweet_'] .account-link,
+article .tweet-context.txt-small.txt-mute.padding-bs a {
+    font-weight: 600 !important;
+}
+
+article[data-key^='favorite_'] .activity-header .nbfc.txt-mute.txt-small,
+article[data-key^='follow_'] .activity-header .nbfc.txt-mute.txt-small,
+article[data-key^='retweet_'] .activity-header .nbfc.txt-mute.txt-small,
+article[data-key^='retweeted_retweet_'] .activity-header .nbfc.txt-mute.txt-small,
+article[data-key^='favorited_retweet_'] .activity-header .nbfc.txt-mute.txt-small {
+    font-size: 13px !important;
+}
+
+article[data-key^='favorite_'] .js-stream-item-content .activity-header .obj-left.item-img .activity-icon-aligned.pull-right.icon-favorite,
+article[data-key^='follow_'] .js-stream-item-content .activity-header .obj-left.item-img .activity-icon-aligned.pull-right.icon-follow,
+article[data-key^='retweeted_retweet_'] .js-stream-item-content .activity-header .obj-left.item-img .activity-icon-aligned.pull-right.icon-follow,
+article[data-key^='favorited_retweet_'] .js-stream-item-content .activity-header .obj-left.item-img .activity-icon-aligned.pull-right.icon-follow {
+    margin-top: 0 !important;
+}
+
+article[data-key^='favorite_'] .avatar,
+article[data-key^='retweet_'] .avatar,
+article[data-key^='retweeted_retweet_'] .avatar,
+article[data-key^='favorited_retweet_'] .avatar {
+    overflow: hidden !important;
+}
+
+.icon-favorite.activity-indicator,
+.icon-follow.activity-indicator,
+.icon-retweet.activity-indicator {
+    margin-left: 0px !important;
+    margin-top: -48px !important;
+    z-index: 1 !important;
+}
+
+.js-app-header .column-nav-link .icon,
+.js-app-header .js-header-add-column .icon,
+.app-navigator i {
+    font-size: 22px !important;
+}
+
+.js-account-manager-container .drawer-header:after,
+.account-row-separator-b:after {
+    height: 0 !important;
+}
+
+.js-header-action:not(.column-nav-link):not([data-title='Expand']),
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']) {
+    height: 40px !important;
+    padding-top: 0 !important;
+}
+
+.js-header-action:not(.column-nav-link):not([data-title='Expand']) i,
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']) i {
+    padding-top: 6px !important;
+}
+
+.js-header-action:not(.column-nav-link):not([data-title='Expand']) .nbfc,
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']) .nbfc {
+    padding-top: 17px !important;
+}
+
+.js-search-results-header .js-toggle-button,
+.btn-neutral-negative {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+
+.js-search-results-header .js-toggle-button:hover,
+.js-send-button:hover,
+.js-send-button:focus,
+.btn-on-blue:hover,
+.btn-on-blue:focus,
+.lst-launcher .js-item-launch a:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+}
+
+[data-title='Expand'] .icon-arrow-l-double:before,
+[data-title='Expand'] .icon-arrow-r-double:before {
+    content: '☰';
+    transition: all .3s ease-in-out;
+    font-size: 26px !important;
+}
+
+.nav-user-info {
+    bottom: 10px !important;
+}
+
+.app-navigator {
+    bottom: 50px !important;
+}
+
+.nav-user-info img {
+    width: 30px !important;
+    height: auto !important;
+    margin-left: 10px !important;
+}
+
+.nav-user-info .fullname {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 32px !important;
+    padding-left: 2px;
+}
+
+.nav-user-info .username {
+    display: none !important;
+}
+
+.prf .fullname {
+    text-shadow: none !important;
+    font-weight: normal !important;
+}
+
+.prf .username {
+    text-shadow: none !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    opacity: 0.7 !important;
+    padding-bottom: 5px !important;
+}
+
+.tweet-context .icon-retweet {
+    top: -11px !important;
+    z-index: 99 !important;
+}
+
+.list-details.frm label {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.mdl-placeholder {
+    text-shadow: none !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.tweet-context .icon-retweet {
+    top: -13px !important;
+    z-index: 99 !important;
+}
+
+.js-compose-header .js-drawer-close {
+    margin-top: 12px !important;
+}
+
+.column-type-home .obj-left.item-img.tweet-img,
+.column-type-list .obj-left.item-img.tweet-img,
+.column-type-search .obj-left.item-img.tweet-img,
+.column-type-tweets .obj-left.item-img.tweet-img,
+.column-temp .obj-left.item-img.tweet-img,
+.js-med-tweet .obj-left.item-img.tweet-img {
+    top: 7px !important;
+    position: absolute !important;
+}
+
+.column-temp [data-key^='favorite_'] .obj-left.item-img.tweet-img,
+.column-temp [data-key^='follow_'] .obj-left.item-img.tweet-img,
+.column-temp [data-key^='retweet_'] .obj-left.item-img.tweet-img,
+.column-temp [data-key^='retweeted_retweet_'] .obj-left.item-img.tweet-img,
+.column-temp [data-key^='favorited_retweet_'] .obj-left.item-img.tweet-img {
+    top: auto !important;
+}
+
+.tweet-context {
+    font-weight: normal !important;
+}
+
+.tweet-dettail .margin-t--10,
+.margin-tl {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.tweet-dettail.tweet-stats {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.tweet-stats li {
+    margin-top: 0px !important;
+}
+
+.link-complex:hover .link-complex-target,
+.link-complex:focus .link-complex-target,
+.link-complex:active .link-complex-target {
+    text-decoration: none !important;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.stream-item .js-user-actions-menu .icon {
+    font-size: 16px !important;
+    padding-bottom: 2px !important;
+    padding-left: 2px !important;
+}
+
+.js-list-container *,
+.js-list-container *:hover,
+.js-list-container *:focus {
+    text-decoration: none !important;
+}
+
+.mdl .accs-header {
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-right: 26px !important;
+}
+
+.mdl .accs-header h3 {
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.mdl .js-account-selector {
+    padding-top: 10px !important;
+}
+
+.mdl .js-account-selector li {
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.mdl .js-account-selector .acc-avatar {
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.mdl .js-account-selector .icon-twitter-bird:before {
+    content: '\f021' !important;
+}
+
+.mdl .js-account-selector i {
+    display: none;
+}
+
+.mdl .js-account-selector .acc-selected i {
+    position: absolute;
+    font-size: 23px !important;
+    width: 50px;
+    height: 50px;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 52px !important;
+    display: block !important;
+}
+
+.mdl [data-action^='quote'],
+.mdl [data-action^='retweet'] {
+    text-transform: uppercase;
+    font-weight: 600!important;
+    border: 0px!important;
+    border-radius: 0px!important;
+    margin-top: 16px!important;
+    padding: 8px !important;
+    transition: all .1s ease-in-out;
+}
+
+.mdl .js-inreply {
+    border: 0px !important;
+}
+
+.mdl .js-inreply .tweet-context i {
+    top: -5px !important;
+}
+
+.mdl .js-inreply .tweet-img {
+    position: absolute !important;
+    top: 16px;
+}
+
+.compose-content .js-account-list *,
+.compose-content .js-account-list *:hover,
+.compose-content .js-account-list *:focus {
+    box-shadow: none !important;
+}
+
+.compose-content .compose-account-selected {
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 22px !important;
+}
+
+.compose-content .compose-account-selected i {
+    font-size: 11px !important;
+}
+
+.js-schedule-datepicker-holder .popover {
+    display: block;
+    width: 81% !important;
+    padding: 0 10px !important;
+    margin: 0px !important;
+}
+
+.js-schedule-datepicker-holder #scheduled-hour,
+.js-schedule-datepicker-holder #scheduled-minute {
+    border: 0px !important;
+    border-radius: 0px;
+    margin-top: 10px;
+    float: left;
+}
+
+.js-schedule-datepicker-holder header span {
+    height: 30px !important;
+    display: block;
+    text-align: center;
+    width: 12px;
+    overflow: hidden;
+    line-height: 30px;
+    float: left !important;
+    margin-top: 10px;
+}
+
+.js-schedule-datepicker-holder #amPm {
+    border: 0px !important;
+    border-radius: 0px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 6px;
+    transition: all .1s ease-in-out;
+    line-height: 22px;
+}
+
+.js-schedule-datepicker-holder header {
+    display: block !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #calhead {
+    padding: 0px !important;
+    height: 30px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #calroot {
+    position: relative;
+    padding: 0px !important;
+    margin: 6px !important;
+    width: 95% !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar .nav-group {
+    top: 0px !important;
+    height: 21px !important;
+    overflow: hidden;
+}
+
+.js-schedule-datepicker-holder .form-calendar .nav-group a {
+    border-radius: 0px !important;
+    border: 0px !important;
+    width: 20px !important;
+    padding: 0px !important;
+    height: 21px !important;
+    overflow: hidden;
+    opacity: 0.6;
+    transition: all .1s ease-in-out;
+    text-align: right !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar .nav-group a:hover {
+    opacity: 1.0 !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar .nav-group a i {
+    font-size: 12px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #caltitle {
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+
+.compose .margin-b--30 {
+    margin-bottom: 6px !important;
+}
+
+.compose .js-add-image-button {
+    margin-top: 24px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #caldays {
+    border: 0px !important;
+    height: 30px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #caldays span {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    width: 29.68px !important;
+    line-height: 33px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar #calweeks {
+    height: auto !important;
+    display: block !important;
+    overflow: auto !important;
+    padding-bottom: 10px;
+}
+
+.js-schedule-datepicker-holder .form-calendar .calweek {
+    padding: 9px !important;
+}
+
+.js-schedule-datepicker-holder .form-calendar .calweek a {
+    width: 13.7% !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    transition: all .1s ease-in-out;
+    line-height: 30px;
+}
+
+.js-schedule-datepicker-holder .form-calendar .calweek .caldisabled {
+    opacity: 0.5;
+}
+
+.js-schedule-datepicker-holder .js-remove {
+    border-radius: 0px !important;
+    margin: 0 2px !important;
+    padding: 7px !important;
+    width: 98.2% !important;
+    margin-bottom: 10px !important;
+    transition: all .1s ease-in-out;
+}
+
+.js-schedule-datepicker-holder .js-remove i {
+    font-size: 14px !important;
+    padding-right: 8px;
+}
+
+.js-schedule-datepicker-holder .js-remove .label {
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.js-column-loading-placeholder .spinner-small {
+    display: none !important;
+}
+
+.is-unread {
+    margin-top: 1px !important;
+}
+
+.js-tweet .txt-small {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600;
+    font-size: 13px !important;
+}
+
+.js-tweet-stats .tweet-stats * {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px !important;
+}
+
+.js-tweet a:hover,
+.js-tweet a:focus {
+    text-decoration: none !important;
+    opacity: 0.8;
+}
+
+.account-link:hover,
+.account-link:focus {
+    opacity: 1.0 !important;
+}
+
+.js-tweet .fullname:hover {
+    opacity: 0.7;
+}
+
+.app-header .js-column-nav-list li:first-child {
+    margin-top: 0px !important;
+}
+
+[data-title='Expand'] i {
+    width: 25px !important;
+    overflow: hidden !important;
+    padding-left: 2.5px !important;
+    height: auto !important;
+}
+
+.btn-compose .label {
+    padding-left: 10px !important;
+}
+
+.tweet-button .icon-compose {
+    font-size: 15px !important;
+    padding-top: 1px !important;
+    margin-left: 0px !important;
+}
+
+.mdl-content {
+    border: 0px !important;
+}
+
+.js-follow-from.l-table.padding-al,
+.mdl-content .padding-al {
+    padding: 8px 2px !important;
+}
+
+.mdl-buttonbar {
+    padding: 15px 18px !important;
+}
+
+[data-title='Expand'] .obj-left {
+    line-height: 10px !important;
+    margin-top: 16px !important;
+    padding-top: 0 !important;
+}
+
+.js-column-nav-list li,
+.js-header-action:not(.column-nav-link):not([data-title='Expand']):not([data-action="show-search"]):not([data-drawer="compose"]),
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']):not([data-action="show-search"]):not([data-drawer="compose"]) {
+    height: 50px !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.js-column-nav-list li i,
+.js-header-action:not(.column-nav-link):not([data-title='Expand']):not([data-action="show-search"]):not([data-drawer="compose"]) i,
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']):not([data-action="show-search"]):not([data-drawer="compose"]) i {
+    text-align: center !important;
+}
+
+.js-header-action:not(.column-nav-link):not([data-title='Expand']) .obj-left,
+.js-hide-drawer:not(.column-nav-link):not([data-title='Expand']) .obj-left {
+    margin-left: 10px !important;
+    padding-top: 6px !important;
+}
+
+.js-column-nav-list li * {
+    padding-top: 2px !important;
+}
+
+.js-app-header-inner {
+    padding: 0 !important;
+}
+
+.app-search button.js-header-action {
+    padding: 0 !important;
+    margin-bottom: 0px !important;
+    height: 48px !important;
+    width: calc(100% - 10px);
+    margin-left: 5px !important;
+}
+
+.btn-compose {
+    width: 190px !important;
+}
+
+.js-hide-drawer.btn-compose {
+    width: 200px !important;
+}
+
+.is-condensed .btn-compose {
+    width: 40px !important;
+}
+
+.is-condensed .js-hide-drawer.btn-compose {
+    width: 50px !important;
+}
+
+.js-column-nav.antiscroll-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.app-search-form .js-search-input-control {
+    width: 190px !important;
+    margin-left: 5px !important;
+}
+
+.is-condensed .js-search-input-control {
+    width: 100% !important;
+}
+
+.js-column-options .js-accordion-panel {
+    padding: 0 10px !important;
+}
+
+.js-login-form .js-spinner-button-active {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    position: absolute;
+    left: 46%;
+    background-image: none !important;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+.js-send-button-container .js-spinner-button-active {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    position: absolute;
+    left: 34%;
+    top: 3px;
+    background-image: none !important;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0)
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+.js-app-loading .sign-in .spinner-centered,
+.js-app-loading [alt*="Loading"] {
+    display: none !important;
+}
+
+.js-app-loading .sign-in .js-signin-ui {
+    width: 50px;
+    height: 50px;
+    /*margin: 100px auto;*/
+
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+
+.compose-send-button-success {
+    text-align: center!important;
+    width: 62.4688px !important;
+    height: 40px !important;
+    left: 11px !important;
+    top: 2px !important;
+    font-size: 20px!important;
+    line-height: 40px!important;
+}
+
+.js-status-message {
+    right: 0px !important;
+    position: fixed !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    max-width: 100% !important;
+}
+
+.status-message-text {
+    font-size: 20px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 400;
+    line-height: 32px !important;
+    top: 0% !important;
+    position: absolute;
+    text-align: center !important;
+    width: 100%;
+}
+
+.js-status-message .icon-close {
+    font-size: 15px !important;
+    margin-right: 10px !important;
+    margin-top: 12px !important;
+}
+
+.is-condensed .attach-compose-buttons {
+    width: 50px !important;
+    overflow: hidden;
+}
+
+.hide-detail-view-inline .attach-compose-buttons {
+    width: 200px;
+    overflow: hidden;
+}
+
+.account-inline .username {
+    color: rgb(150, 150, 150) !important;
+}
+
+.tweet-actions {
+    padding: 5px 0 0 0;
+}
+
+.js-tweet-text {
+    padding-top: 3px;
+}
+
+.js-account-settings-accounts .account-inline .fullname,
+.account-inline .username {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.js-account-settings-accounts .js-manage-team,
+.js-account-settings-accounts .js-account-action {
+    margin: 12px !important;
+    padding-top: 8px !important;
+}
+
+.js-account-settings-accounts {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.js-account-settings-accounts .is-active {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 20px !important;
+}
+
+.js-compose-header .icon-close {
+    font-size: 13px !important;
+    top: 7px !important;
+    left: 5px !important;
+}
+
+.drawer-header .icon-close,
+.js-compose-header .icon-close {
+    font-size: 13px !important;
+    top: 8px !important;
+    left: 8px !important;
+}
+
+.js-account-settings-detail .margin-bxl {
+    margin-bottom: 0px !important;
+}
+
+.js-account-settings-detail .padding-txxl {
+    margin: 0 15px !important;
+    line-height: 21px !important;
+    padding-bottom: 7px !important;
+    padding-top: 10px !important;
+}
+
+.js-account-settings-detail .padding-txxl i {
+    float: left !important;
+    padding-left: 10px;
+    font-size: 14px !important;
+    line-height: 20px;
+}
+
+.js-account-settings-detail .account-remove button {
+    margin-right: 15px !important;
+    margin-left: 5px !important;
+    width: 97.2% !important;
+    margin-top: 5px !important;
+    line-height: 21px !important;
+    padding-bottom: 7px !important;
+    padding-top: 10px !important;
+}
+
+.js-account-settings-detail .account-remove button i {
+    float: left !important;
+    padding-left: 0px;
+    font-size: 12px !important;
+    line-height: 22px;
+}
+
+.js-account-settings-detail [data-action="setDefault"] {
+    margin-left: 15px !important;
+    width: 88% !important;
+}
+
+.js-contributor-manager-container .drawer-header {
+    border: 0px !important;
+}
+
+.js-contributor-manager-container .drawer-header-title {
+    float: left !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    padding-top: 20px !important;
+}
+
+.js-contributor-manager-container .drawer-header-title i {
+    font-size: 11px !important;
+    padding-top: 5px;
+}
+
+.js-contributor-manager-container .txt-base-extra-large {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.js-contributor-manager-container .padding-tl {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.js-contributor-manager-container .js-username-input {
+    width: 83% !important;
+    border-radius: 0 !important;
+}
+
+.js-contributor-manager-container .js-search-input-control ul {
+    width: 83% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: 0px !important;
+}
+
+.js-contributor-manager-container .js-search-input-control ul .s-selected {
+    border: 0px !important;
+    opacity: 1 !important;
+}
+
+.js-contributor-manager-container .js-search-input-control li {
+    border: 0px;
+    opacity: 0.7;
+}
+
+.js-contributor-manager-container [data-state="confirmAdd"],
+.js-contributor-manager-container [data-state="settings"],
+.js-contributor-manager-container [data-previous-state="settings"] {
+    width: 75.5% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto !important;
+}
+
+.js-contributor-manager-container .js-contributor-action-confirm .label {
+    display: none !important;
+}
+
+.contributor-settings-role {
+    border: 0px !important;
+}
+
+.med-origlink,
+.med-flaglink {
+    margin: auto 0px;
+}
+
+.med-origlink:hover,
+.med-flaglink:hover,
+.med-origlink:focus,
+.med-flaglink:focus {
+    opacity: 0.6 !important;
+    text-decoration: none !important;
+}
+
+.column-type-message .rpl textarea {
+    padding: 8px !important;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px !important;
+}
+
+.column-type-message .rpl-actions i {
+    opacity: 0.7;
+}
+
+.column-type-message .js-column-header .column-settings-link {
+    line-height: 56px !important;
+}
+
+.column-type-message .conversation-title {
+    text-align: left !important;
+}
+
+.column-type-message .conversation-title .username {
+    display: none !important;
+}
+
+.column-options .js-perform-search {
+    margin-top: 12px !important;
+}
+
+.compose .js-add-image-button i,
+.compose .js-schedule-button i,
+.compose .js-dm-button i {
+    font-size: 16px !important;
+}
+
+.compose .js-compose-message-recipient-container *:focus,
+.compose .js-compose-message-recipient-container *:hover,
+.compose .js-compose-message-recipient-container *:active,
+.compose-message-recipient-input-container.is-focused {
+    box-shadow: none !important;
+}
+
+.compose .js-typeahead-user-list li {
+    padding: 10px !important;
+}
+
+.compose .js-typeahead-user-list li .fullname {
+    font-weight: 500!important;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.compose .js-typeahead-user-list li .username {
+    opacity: 0.6;
+    font-weight: normal !important;
+}
+
+.compose .js-typeahead-conversation-item .multiple-avatar-grid-mini {
+    margin: 10px !important;
+    border-radius: 50% !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.compose .js-typeahead-conversation-item .nbfc {
+    padding-left: 20px !important;
+    padding-top: 10px !important;
+}
+
+.compose .js-compose-message-recipient-list .js-compose-message-recipient {
+    height: auto;
+    padding: 5px;
+    border: 0px !important;
+    margin: 5px;
+    width: 97.6%;
+}
+
+.compose .js-compose-message-recipient-list .js-remove-recipient i {
+    font-size: 10px !important;
+    line-height: 25px !important;
+}
+
+.compose .js-compose-message-recipient-list .compose-message-recipient-name,
+.compose .js-compose-message-recipient-list .remove-recipient {
+    border: 0px !important;
+}
+
+.js-mediatable .mdl {
+    box-shadow: none !important;
+}
+
+.tweet-stats [data-original-title="View on analytics.twitter.com"] {
+    padding-bottom: 20px !important;
+}
+
+.js-mediatable .js-med-tweet {
+    display: none !important;
+}
+
+@media (max-width: 639px) {
+    .js-modal-panel {
+        position: absolute !important;
+        left: 0 !important;
+    }
+    .js-modal-panel,
+    .js-modal .s-nonav {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .s-nonav .mdl-content li {
+        width: 100% !important;
+    }
+}
+
+.compose .lst-modal {
+    border: 0px !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.compose .lst-modal li {
+    border: 0px!important;
+}
+
+.compose .lst-modal li * {
+    font-weight: normal !important;
+}
+
+.js-column-social-proof .column-header i {
+    font-size: 13px !important;
+}
+
+.column-holder .column-title-back {
+    line-height: 48px !important;
+}
+
+.column-holder .js-tooltip-target {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    transition: all 0.1s ease-in-out !important;
+    font-weight: 600;
+    line-height: 27px !important;
+}
+
+.js-column-social-proof article {
+    padding: 0 3px !important;
+}
+
+.js-mediatable .mdl-dismiss {
+    right: 0px !important;
+}
+
+.column-message {
+    border: 0px !important;
+    opacity: 0.6;
+    padding-left: 10px !important;
+}
+
+.is-options-open .js-accordion .is-expanded .js-clear-search {
+    margin-top: 12px !important;
+}
+
+.in-tweet-divider:before {
+    background: transparent !important;
+}
+
+.js-tweet-translation .tweet-translation-attribution-text {
+    padding-top: 0px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600;
+    font-size: 15px !important;
+}
+
+.tweet-detail .tweet-translation-text {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+}
+
+.bing-logo {
+    width: 18px !important;
+    overflow: hidden !important;
+}
+
+.js-modal-panel.mdl.s-full.med-fullpanel {
+    pointer-events: none;
+}
+
+.js-modal-panel.mdl.s-full.med-fullpanel .med-tray.js-mediaembed,
+.js-modal-panel.mdl.s-full.med-fullpanel .icon-close,
+.js-modal-panel.mdl.s-full.med-fullpanel .mdl-btn-media {
+    pointer-events: auto;
+}
+
+.open_card {
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 2em;
+    text-transform: uppercase !important;
+    transition: all .2s ease-in-out;
+}
+
+.has-twitter-card .TwitterCard-container,
+.has-twitter-card .TwitterCard .SummaryCard-image {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    transition: background .3s ease-in-out;
+    cursor: pointer;
+}
+
+.has-twitter-card .TwitterCard .SummaryCard-destination {
+    opacity: 0.5;
+}
+
+.has-twitter-card .TwitterCard .PollXChoiceTextOnly-footer {
+    border: 0px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-footer .PollXChoiceTextOnly-info {
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.TwitterCard .PollXChoiceTextOnly-footer .PollXChoiceTextOnly-info .PollXChoiceTextOnly-vote button {
+    border: 0px;
+    border-radius: 0px;
+    background-image: none;
+    text-transform: uppercase;
+    display: none !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--radio {
+    display: none !important;
+}
+
+.has-twitter-card .TwitterCard .PollXChoiceTextOnly-footer {
+    padding-top: 0px !important;
+    padding-left: 5px !important;
+    margin-top: 0px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-footer .PollXChoiceTextOnly-info .PollXChoiceTextOnly-vote {
+    display: none !important;
+}
+
+.has-twitter-card .TwitterCard .PollXChoiceTextOnly-footer .PollXChoiceTextOnly-info {
+    margin-bottom: 10px !important;
+}
+
+.js-poll .inline-block {
+    display: none !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice {
+    border-radius: 0px !important;
+    padding: 6.5px !important;
+}
+
+.TwitterCard [data-poll-state=opened] .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-progress {
+    padding: 10px !important;
+}
+
+.TwitterCard [data-poll-state=opened] .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--chart {
+    border-radius: 0px !important;
+}
+/* removed account warning top banner */
+
+.message-banner {
+    font-size: 20px !important;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    width: 100% !important;
+    font-weight: 400 !important;
+    line-height: 32px !important;
+}
+
+.message-banner .btn {
+    border: none !important;
+    border-radius: 0 !important;
+    transition: all 0.1s ease-in-out !important;
+}
+/*.is-wide-columns .app-columns {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+
+.app-columns {
+    padding: 0 0 0 0 !important;
+}
+
+.column {
+    margin: 0 0 0 0 !important;
+}*/
+
+.column-nav-item {
+    color: #fff !important;
+}
+
+.js-header-action {
+    transition: color 0.1s, background 0.1s ease-in-out !important;
+}
+
+.app-header-inner {
+    top: 50px !important;
+}
+
+.column-content .chirp-container {
+    margin-top: 8px !important;
+}
+
+.mdl-links {
+    display: none !important;
+}
+
+.dropdown-menu {
+    z-index: 999999999 !important;
+}
+
+.js-column-nav-list li:hover,
+.js-header-action:hover {
+    background-color: transparent !important;
+    opacity: 0.8;
+}
+
+.conversation-title .title-content {
+    line-height: 40px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice {
+    height: 40px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly {
+    padding: 0px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--text .tcu-textBold {
+    font-weight: normal !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--text span {
+    font-size: 16px !important;
+    height: 40px !important;
+    display: block !important;
+    overflow: hidden !important;
+    float: left !important;
+    line-height: 44px !important;
+}
+
+.TwitterCard [data-poll-state=opened] .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-progress {
+    height: 40px !important;
+    float: left !important;
+    display: block !important;
+    line-height: 24px !important;
+    padding-right: 20px !important;
+    max-width: 20px !important;
+    margin-right: 5px !important;
+}
+
+.TwitterCard .PollXChoiceTextOnly-optionContainer .PollXChoiceTextOnly-choice--text {
+    padding: 0px !important;
+    height: 40px !important;
+    display: block !important;
+}
+
+.mdl-inner .js-right-column {
+    overflow-x: hidden !important;
+}
+
+.js-column-options .facet-type.is-expanded{
+  width: 100% !important;
+  display: block !important;
+  overflow: hidden !important;
+  margin-right: -10px !important;
+}
+
+
+.js-search-in-popover .js-typeahead-item{
+    padding-left: 12px !important;
+}
+
+.js-search-in-popover .js-typeahead-item .icon{
+    font-size: 15px !important;
+    padding-top: 5px !important;
+}
+
+.js-search-in-popover .js-typeahead-item .list-text{
+    font-weight: 400 !important;
+    padding-top: 2px !important;
+}
+
+.js-typeahead-recent-search-clear::before {
+    font-size: 14px !important;
+    position: absolute !important;
+    padding-left: 20px !important;
+    top: 12px !important;
+}
+
+.js-search-in-popover .js-typeahead-recent-search-clear{
+    padding: 10px 0 !important;
+}
+
+.js-search-in-popover .js-typeahead-recent-search-clear span{
+    padding-left: 30px !important;
+    font-weight: 600;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    text-transform: uppercase;
+    position: absolute;
+    top: 12px !important;
+    padding-left: 50px !important;
+}
+
+.overlay{
+    min-width: 5000px !important;
+    top: -54px !important;
+}
+
+.is-condensed .popover-position-rt{
+    left: 56px !important;
+}
+
+.popover-position-rt{
+    left: 205px !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-engagement-filter{
+    padding-left: 3px !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-engagement-filter .controls{
+    margin-left: 0px !important;
+}
+
+.js-search-in-popover .js-search-results-container input, .js-search-in-popover .js-search-results-container select{
+    border-radius: 0px !important;
+    border: 0px !important;
+    margin-right: 10px;
+    margin-top: 7px !important;
+    text-align: center;
+}
+
+.js-search-in-popover .js-search-results-container .js-user-filter{
+    padding: 0 12px !important;
+}
+
+.js-column .js-column-options [data-action="edit-list"]{
+    border: 0px!important;
+}
+
+.js-column .js-column-options [data-action="edit-list"] .label{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 600;
+}
+
+.js-column .js-column-options [data-action="edit-list"] i{
+    font-size: 12px !important;
+    padding-right: 7px !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-content-filter{
+    overflow: hidden !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-content-filter .control-group{
+    padding-right: 12px !important;
+    padding-left: 4px !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-content-filter .control-group .js-search-input-control .icon-search{
+    top: 26px !important;
+}
+
+.js-search-in-popover .js-search-results-container .js-content-filter .control-group .js-search-input-control input{
+    text-align: left !important;
+}
+
+.is-selected.compose-account .compose-account-img{
+    box-shadow: none !important;
+}
+
+.gap-chirp{
+    display: none !important;
+}
+
+.js-add-account .txt-r-text{
+    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.js-add-account button{
+    line-height: 13px !important;
+}
+
+.overlay-super{
+  min-width: 100px !important;
+}
+
+input[type="radio"] {
+    height: 18px !important;
+    width: 18px !important;
+    float: left !important;
+    border-radius: 50% !important;
+    border: 2px solid #cccccc !important;
+    -webkit-appearance: none !important;
+}
+
+input[type="radio"]:hover {
+    border: 2px solid #ffffff !important;
+}
+
+input[type="radio"]:focus {
+    border: 2px solid #999999 !important;
+}
+
+input[type="radio"]:checked {
+    color: #cccccc !important;
+    border-radius: 50% !important;
+    border: 2px solid #0592ff !important;
+}
+
+input[type="radio"]:checked:before {
+    position: absolute !important;
+    content: '\25CF' !important;
+    margin-top: -2.9px !important;
+    margin-left: 1px !important;
+    height: 17px !important;
+    width: 17px !important;
+    font-size: 20px !important;
+}
+
+.js-modals-container  .mdl-header-title{
+  padding-left: 0px;
+}
+
+.js-modals-container .mdl-header-title{
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+font-weight: 600 !important;
+text-transform: uppercase;
+}
+
+
+.mdl .mdl-dismiss .icon-close{
+padding-top: 3px !important;
+}
+
+.modal-content-with-border{
+  border: 0px !important;
+}
+
+.mdl-report-spam-options .padding-hl{
+  padding: 0px !important;
+}
+
+.mdl-report-spam-options .radio .txt-base-medium{
+  margin-left: 5px !important;
+}
+
+.mdl-report-spam-options .radio p{
+  margin-left: 7px !important;
+  margin-top: 5px !important;
+}
+
+.mdl-report-spam-options .divider-bar{
+  display: none !important;
+}
+
+.mdl-report-spam-options .checkbox{
+  padding-left: 19px !important;
+}
+
+.mdl-report-spam-options .js-report-block{
+  margin-right: 12px !important;
+}
+
+.mdl-report-spam-options .checkbox p{
+  margin-left: 8px !important;
+}
+
+.js-modal-panel .mdl-header-title{
+  padding-left: 0px;
+  font-weight: 600 !important;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !important;
+
+  text-transform: uppercase;
+}
+
+.js-modal-panel .checkbox span{
+line-height: 14px;
+}

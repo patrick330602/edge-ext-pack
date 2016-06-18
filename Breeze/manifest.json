@@ -1,0 +1,36 @@
+{
+    "name": "Breeze - New Tab Page",
+    "description": "Breeze - New Tab Page",
+    "version": "0.1",
+    "author": "Samuel Nunes",
+
+    "background": {
+        "persistent": false,
+        "scripts": ["back.js", "jquery-3.0.0.js"]
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "20": "48x48/48_alphaw.png",
+            "40": "48x48/48_alphaw.png"
+        },
+        "default_title": "Breeze - New Tab Page",
+        "default_popup": "options.html"
+    },
+
+    "options_page": "options.html",
+
+    "icons": {
+		"128": "128x128/128_alphaw.png",
+		"48": "48x48/48_alphaw.png",
+		"16": "16x16/16_alphaw.png"
+	},
+
+    "default_locale": "en",
+
+    "permissions": [
+        "*://*/*", "notifications", "cookies", "tabs", "storage", "contextMenus", "background"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "minimum_edge_version": "33.14281.1000.0"
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="optionsPageHeadTitle"></title>
+    <link href="../webcore/stylesheets/WebCore.4.3.0.ltr.light.min.css" rel="stylesheet"/>
+    <link href="../css/options.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 side-nav-wrap">
+            <nav role="navigation" class="side-nav">
+                <h3 data-i18n="optionsPageTitle"></h3>
+                <ul>
+                    <li><a data-tab="settingTabId" data-i18n="settingTabTitle" href=""></a>
+                    </li>
+                    <li><a data-tab="feedbackTabId" data-i18n="feedbackTabTitle" href=""></a>
+                    </li>
+                    <li><a data-tab="aboutTabId" data-i18n="aboutTabTitle" href=""></a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="col-xs-18">
+            <div id="settingTabId">
+                <header class="page-title-header">
+                    <h1 class="page-title" data-i18n="settingTabTitle"></h1>
+                </header>
+                <div class="section-body">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td colspan="5">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" id="enableMouseGestureCheckboxId" checked />
+                                            <span class="text-body"
+                                                  data-i18n="settingTabEnableMouseGestureCheckbox"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" id="enablePenGestureCheckboxId" checked />
+                                        <span class="text-body"
+                                              data-i18n="settingTabEnablePenGestureCheckbox"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="settingTabGestureOptionsTitleId" colspan="5">
+                                <p class="text-subtitle" data-i18n="settingTabGestureOptionsTitle"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableTipsTd" colspan="5">
+                                <p class="text-body" data-i18n="settingTabGesturesTips"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableTitleTd" colspan="5">
+                                <p class="text-subtitle" data-i18n="settingTabBasicGestureTitle"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/LL.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonL"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionBack"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonL">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/RR.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonR"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionForward"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonR">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/UU.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonU"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollUp"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonU">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/DD.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonD"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollDown"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonD">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableTitleTd" colspan="5">
+                                <p class="text-subtitle" data-i18n="settingTabAdvancedGestureTitle"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/UL.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonUL"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollLeft"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonUL">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/UR.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonUR"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollRight"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonUR">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/DL.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonDL"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionCloseAllTabsExceptCurrent"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonDL">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/DR.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonDR"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionCloseCurrentTab"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonDR">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/RU.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonRU"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionOpenNewTab"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonRU">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/LU.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonLU"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionCloseAllTabs"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonLU">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/RD.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonRD"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionRefreshCurrentTab"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonRD">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/LD.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonLD"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionStopLoading"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonLD">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/UD.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonUD"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollToBottom"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonUD">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableGestureCol">
+                                <img src="../image/arrow/DU.svg">
+                            </td>
+                            <td class="tableDropdownCol">
+                                <div class="dropdown">
+                                    <button class="btn btn-dropdown no-outline" type="button"
+                                            id="gestureButtonDU"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false" role="button">
+                                        <label data-i18n="actionScrollToTop"></label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="gestureButtonDU">
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="tableResetCol">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="btn" id="resetButtonId"
+                                        data-i18n="settingTabResetButton" data-toggle="modal"
+                                        data-target="#resetConfirmModal">
+                                </button>
+                            </td>
+                            <td colspan="2">
+                                <a id="settingTabHelpLinkId" href="ftu.html#help" target="_blank" class="pull-right" data-i18n="settingTabHelpLinkText"></a>
+                            </td>
+                            <td class="tableResetCol">
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="modal" id="resetConfirmModal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" id="resetConfirmModalHeader">
+                                    <h4 class="modal-title text-subtitle" data-i18n="resetConfirmModalTitle"></h4>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary" id="resetConfirmButtonId"
+                                                data-dismiss="modal"
+                                                data-i18n="resetConfirmModalConfirmButton">
+                                        </button>
+                                        <button type="cancel" class="btn btn-default" data-dismiss="modal"
+                                                data-i18n="resetConfirmModalCancelButton">
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="feedbackTabId" hidden>
+                <header class="page-title-header">
+                    <h1 class="page-title" data-i18n="feedbackTabTitle"></h1>
+                </header>
+                <div class="section-body">
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="enableSendTelemetryCheckboxId" checked>
+                                <span class="text-body" data-i18n="enableSendTelemetryCheckboxLabel"></span>
+                            </label>
+                        </div>
+                        <p data-i18n="sendTelemetryDescription"></p>
+                    </div>
+                    <p data-i18n="feedbackKindTitle" id="feedbackKindTitleId"></p>
+
+                    <div class="form-group">
+                        <div class="radio" id="suggestionRadioId">
+                            <label>
+                                <input type="radio" name="feedbackTabFeedbackKind"
+                                       id="feedbackKindSuggestionRadioButtonId"
+                                       value="Suggestion" checked>
+                                <span class="text-body"
+                                      data-i18n="feedbackTabFeedbackKindSuggestionLabel"></span>
+                            </label>
+                        </div>
+                        <div class="radio" id="problemRadioId">
+                            <label>
+                                <input type="radio" name="feedbackTabFeedbackKind"
+                                       id="feedbackKindProblemRadioButtonId"
+                                       value="Problem">
+                                    <span class="text-body"
+                                          data-i18n="feedbackTabFeedbackKindProblemLabel"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <textarea class="form-control" rows="5" id="feedbackComment"></textarea>
+
+                    <form class="form-group">
+                        <div class="checkbox" id="addEmailCheckboxId">
+                            <label>
+                                <input type="checkbox" id="includeEmailCheckboxId" checked>
+                                <span class="text-body"
+                                      data-i18n="includeEmailCheckboxLabel"></span>
+                            </label>
+                        </div>
+                        <input type="email" id="emailInput" class="form-control">
+                    </form>
+                    <button type="button" id="feedbackSubmitButtonId" class="btn btn-default"
+                            data-i18n="feedbackTabFeedbackSubmitButton">
+                    </button>
+                    <div class="modal" id="successSendFeedbackModal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p data-i18n="successSendFeedbackModalTitle"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" id="failSendFeedbackModal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" id="failSendFeedbackModalHeader">
+                                    <h4 class="modal-title" data-i18n="failSendFeedbackModalTitle"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="aboutTabId" hidden>
+                <header class="page-title-header">
+                    <h1 class="page-title" data-i18n="aboutTabTitle"></h1>
+                </header>
+                <div class="section-body">
+                    <div class="form-group">
+                        <p class="aboutTabParagraphClass" data-i18n="aboutTabExtensionNameAndVersion"></p>
+
+                        <p class="aboutTabParagraphClass" data-i18n="aboutTabCopyrightContentLine1"></p>
+
+                        <p class="aboutTabParagraphClass" data-i18n="aboutTabCopyrightContentLine2"></p>
+                        <a class="aboutTabLinkClass" href="http://go.microsoft.com/fwlink/?LinkId=246338"
+                           data-i18n="aboutTabMicrosoftServiceLicenseContent"></a>
+                        <a href="http://go.microsoft.com/fwlink/?LinkId=248688"
+                           data-i18n="aboutTabMicrosoftPrivacyDisclaimer"></a>
+                    </div>
+                    <p class="text-subtitle" data-i18n="aboutTabChangeLogTitle" id="changeLogTitleId"></p>
+
+                    <div class="form-group" id="changeLogParentDivId">
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="upgradeConfirmModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p id="upgradeConfirmModalContentLine1Id" class="upgradeConfirmModalContentLine" data-i18n="upgradeConfirmModalContentLine1"></p>
+                            <p class="upgradeConfirmModalContentLine" data-i18n="upgradeConfirmModalContentLine2"></p>
+                            <p class="upgradeConfirmModalContentLine" data-i18n="upgradeConfirmModalContentLine3"></p>
+                            <p class="upgradeConfirmModalContentLine" data-i18n="upgradeConfirmModalContentLine4"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary" id="upgradeConfirmButtonId"
+                                        data-dismiss="modal"
+                                        data-i18n="upgradeConfirmModalConfirmButton">
+                                </button>
+                                <button type="cancel" class="btn btn-default" data-dismiss="modal"
+                                        data-i18n="upgradeConfirmModalCancelButton">
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="alert-band" id="appliedSettingAlertId">
+    <div class="alert-stack affix">
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button type="button" id="appliedSettingAlertButtonId" class="close" aria-label="Close">
+            <span aria-hidden="true">
+                <i class="icon-cancel"></i>
+            </span>
+            </button>
+            <div class="alert-title" id="appliedSettingAlertTextId" data-i18n="applySettingAlertText">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../webcore/scripts/bootstrap.js"></script>
+<script type="text/javascript" src="../js/options.js"></script>
+<script type="text/javascript" src="../js/telemetry.js"></script>
+<script type="text/javascript" src="../js/recognizer.js"></script>
+<script type="text/javascript" src="../js/content.js"></script>
+</body>
+</html>

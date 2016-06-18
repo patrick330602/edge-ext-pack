@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="/resources/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/pages/public/window.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/ui_components/tooltip/simple.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/ui_components/dropdown.css" rel="stylesheet" type="text/css">
+    <link href="/resources/styles/ui_components/tooltip/modal.css" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+
+    <script src="/src/lib/prevel.js"></script>
+    <script src="/src/lib/jquery.js"></script>
+    <script src="/src/lib/jqEase.js"></script>
+    <script src="/src/kernel/kernel.js"></script>
+</head>
+
+<body>
+
+<div id="templates">
+    <div class="t-keys-setting-tooltip">
+        <div class="keys-setting-tooltip ks-<%=tooltip_id%>" data-id="<%=tooltip_id%>">
+            <div class="ks-content">
+                <div class="ks-foreword <%=toggle_foreword_class%> need-html-locale" id="Window_TransType_Reassign">In
+                    future, keep mouse over the button to re-assign shortcuts
+                </div>
+                <div class="ks-option kso-1" data-id="1">
+                    <div class="ks-radio"></div>
+                    <div class="ks-option-name"><b><%=ctrl_cmd%>+Enter</b> — <span class="need-html-locale"
+                                                                                   id="Window_TransType_Translate">translate</span><br><b>Enter</b>
+                        — <span class="need-html-locale" id="Window_TransType_NewLine">new line</span></div>
+                </div>
+                <div class="ks-option kso-2" data-id="2">
+                    <div class="ks-radio"></div>
+                    <div class="ks-option-name"><b>Enter</b> — <span class="need-html-locale"
+                                                                     id="Window_TransType_Translate">translate</span><br><b>Shift+Enter</b>
+                        — <span class="need-html-locale" id="Window_TransType_NewLine">new line</span></div>
+                </div>
+            </div>
+            <div class="ks-bottom-arrow"></div>
+        </div>
+    </div>
+</div>
+
+<div id="main-wrap">
+    <div class="top-wrap">
+        <div class="inside-layout">
+            <div class="pa-button settings-button need-html-locale" id="Kernel_SettingsTitle">
+            </div>
+
+            <div class="pa-button unpin need-html-locale need-title-locale" id="Kernel_Unpin"></div>
+
+            <div class="pa-collapsable">
+                <div class="pa-button collapsable-history history-button need-html-locale"
+                     id="Kernel_HistoryTitle"></div>
+            </div>
+
+            <div class="app-name" id="Kernel_AppName">Instant Translate <sup
+                    style="display: none; font-size: 11px;">pro</sup></div>
+        </div>
+    </div>
+
+    <div class="content-wrap">
+        <div class="lang-selectors">
+            <div class="lang-particle from-lang" data-dir="from">
+                <div class="ui_selector">
+                    <div class="select"></div>
+                    <div class="options opt-1" data-serial="1">
+                        <div id="selVisibleScroll-1">
+                            <div id="selEntireScroll-1">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                        <li class="search-li">
+                                            <div class="dd-search">
+                                                <input class="dd-input need-ph-locale" type="text"
+                                                       data-dir="from"
+                                                       id="Window_Dropdown_SearchPlaceholder">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="sel-scrollbar-1">
+                                <div id="sel-track-1">
+                                    <div id="sel-dragBar-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lang-swap">
+                <div class="swap-thumbnail"></div>
+            </div>
+            <div class="lang-particle to-lang" data-dir="to">
+                <div class="ui_selector">
+                    <div class="select"></div>
+                    <div class="options opt-2" data-serial="2">
+                        <div id="selVisibleScroll-2">
+                            <div id="selEntireScroll-2">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                        <li class="search-li">
+                                            <div class="dd-search">
+                                                <input class="dd-input need-ph-locale" type="text"
+                                                       data-dir="to" id="Window_Dropdown_SearchPlaceholder">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="sel-scrollbar-2">
+                                <div id="sel-track-2">
+                                    <div id="sel-dragBar-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="complex-wrap" style="display: none">
+            <div class="left-part">
+                <textarea autofocus="autofocus" class="need-ph-locale translation-input"
+                          id="Window_Content_TextareaPlaceholder"></textarea>
+
+                <div class="action-button listen-raw-button">
+                    <div class="listen-icon"></div>
+                </div>
+                <div class="clear-input need-title-locale" id="Kernel_ClearInput"></div>
+                <div class="autocorrection-layout">
+                    <div class="ac-head need-html-locale" id="Settings_Interface_Autocorrection"></div>
+                    <div class="ac-close"></div>
+                    <div class="ac-meta"><span class="need-html-locale" id="Window_DontAutocorrect"></span> <span class="ac-word">Trottl</span></div>
+                </div>
+                <div class="loading need-html-locale" id="Kernel_Loading"></div>
+                <div class="action-bar">
+                    <div class="action-button translate-button need-html-locale"
+                         id="Window_Content_TranslateButton"></div>
+                </div>
+            </div><div class="right-part">
+                <div class="offline-cap">
+                    <div class="offline-head need-html-locale" id="Window_Offline">No Internet Connection</div>
+                    <div class="offline-desc need-html-locale" id="Window_OfflineDesc">Can't translate new words</div>
+                </div>
+                <div class="translation-empty-cap" style="display: none"></div>
+                <div class="right-part-content-wrap">
+                    <div class="translation-layout-wrap">
+                        <div id="trVisibleScroll">
+                            <div id="trEntireScroll">
+                                <div class="translation-layout"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tr-scrollbar">
+                    <div id="track">
+                        <div id="dragBar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="monetization-warn-layout" style="display: none;">
+        <div class="mw-blackout"></div>
+        <div class="monetization-warn">
+            <div class="mw-title">Instant Translate has monetization</div>
+            <div class="mw-desc">
+                <p>Supporting and improving this app demands a lot of both human and financial resources.</p>
+                <p><b>Yandex.Sovetnik</b> (lower price suggestion on market pages) helps us to partly cover these expenses.</p>
+                <p>Please, don't leave us negative reviews in the Web Store, but disable it <a href="/pages/public/options.html" target="_blank">in settings</a> if it bothers you.</a></p>
+                <p>You can also purchase <b>Instant Translate Pro</b>—with additional features and no monetization inside.</p>
+            </div>
+            <div class="mw-buttons">
+                <button class="mw-button agree-button">I agree</button>
+                <button class="mw-button pro-version-button">Upgrade to Pro (1.99$)</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

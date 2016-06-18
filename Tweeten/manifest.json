@@ -1,0 +1,34 @@
+{
+  "name": "Tweeten",
+  "version": "1.8.1",
+  "author": "Tweeten",
+  "manifest_version": 2,
+  "description": "A better TweetDeck for Edge.",
+  "homepage_url": "http://tweeten.xyz",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "icons/browsericon.png"
+    },
+    "default_title": "Tweeten Settings"
+  },
+  "options_page": "src/options/options.html",
+  "permissions": [
+    "tabs",
+    "https://tweetdeck.twitter.com/",
+    "cookies"
+  ],
+  "web_accessible_resources": [
+    "src/assets/tweeten-dark.css",
+    "src/assets/tweeten-light.css"
+  ]
+}

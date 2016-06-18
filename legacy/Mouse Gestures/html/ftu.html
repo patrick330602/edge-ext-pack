@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="ftuPageTitle"></title>
+    <link href="../webcore/stylesheets/WebCore.4.3.0.ltr.light.min.css" rel="stylesheet"/>
+    <link href="../css/ftu.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div id="outerDivId">
+    <div id="innerDivId">
+        <div id="ftuSlider" class="carousel horizontal-carousel-bgimage slide" data-ride="carousel"
+             data-interval="3500">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="img-div">
+                        <img src="../image/ftu/slide1_bg.png">
+                    </div>
+                    <div class="container-wrap" id="ftuPageSlide1ContainerWrapId">
+                        <div class="container">
+                            <div class="row">
+                                <div class="content-col col-xs-24 col-sm-18">
+                                    <div class="carousel-caption light">
+                                        <h1 class="text-title" id="ftuPageSlide1ContentId"
+                                            data-i18n="ftuPageSlide1Content"></h1>
+                                    </div>
+                                    <div id="ftuPageSlide1Logo">
+                                        <img id="ftuPageSlide1LogoImageBottomId" src="../image/ftu/logo-highlight.svg"/>
+                                        <img id="ftuPageSlide1LogoImageUpId" src="../image/ftu/logo-white.svg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="scrollToBottomFtuPageSlideDivParentId" class="ftuPageAnimationSlideDivParentClass">
+                        <div class="img-div">
+                            <img src="../image/ftu/slide2_bg.png" id="scrollToBottomFtuPageSlideImageId">
+                        </div>
+                        <div class="container-wrap ftuPageAnimationSlideContainerWrapClass" id="scrollToBottomFtuPageSlideContainerWrapId">
+                            <div class="container">
+                                <div class="row">
+                                    <div id="scrollToBottomPathDivId" class="pathDivClass" hidden>
+                                        <svg id="scrollToBottomPathSVGId" class="pathSVGClass">
+                                            <polyline id="scrollToBottomPathPolyLineId" class="pathPolyLineClass" points=""></polyline>
+                                        </svg>
+                                    </div>
+                                    <div id="scrollToBottomActionDivId" class="actionDivClass" hidden>
+                                        <span id="scrollToBottomActionLabelId" class="actionLabelClass">
+                                        </span>
+                                    </div>
+                                    <div id="scrollToBottomArrowDivId" hidden>
+                                        <img id="scrollToBottomArrowImageId"/>
+                                    </div>
+                                    <div id="scrollToBottomTipsDivId" hidden>
+                                        <p id="scrollToBottomTipsPId"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="scrollToTopFtuPageSlideDivParentId" class="ftuPageAnimationSlideDivParentClass">
+                        <div class="img-div">
+                            <img src="../image/ftu/slide2_scroll_to_bottom_bg.png" id="scrollToTopFtuPageSlideImageId">
+                        </div>
+                        <div class="container-wrap ftuPageAnimationSlideContainerWrapClass" id="scrollToTopFtuPageSlideContainerWrapId">
+                            <div class="container">
+                                <div class="row">
+                                    <div id="scrollToTopPathDivId" class="pathDivClass" hidden>
+                                        <svg id="scrollToTopPathSVGId" class="pathSVGClass">
+                                            <polyline id="scrollToTopPathPolyLineId" class="pathPolyLineClass" points=""></polyline>
+                                        </svg>
+                                    </div>
+                                    <div id="scrollToTopActionDivId" class="actionDivClass" hidden>
+                                        <span id="scrollToTopActionLabelId" class="actionLabelClass">
+                                        </span>
+                                    </div>
+                                    <div id="scrollToTopArrowDivId" hidden>
+                                        <img id="scrollToTopArrowImageId"/>
+                                    </div>
+                                    <div id="scrollToTopTipsDivId" hidden>
+                                        <p id="scrollToTopTipsPId"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="openNewTabFtuPageSlideDivParentId" class="ftuPageAnimationSlideDivParentClass">
+                        <div class="img-div">
+                            <img src="../image/ftu/slide2_scroll_to_top_bg.png" id="openNewTabFtuPageSlideImageId">
+                        </div>
+                        <div class="container-wrap ftuPageAnimationSlideContainerWrapClass" id="openNewTabFtuPageSlideContainerWrapId">
+                            <div class="container">
+                                <div class="row">
+                                    <div id="openNewTabPathDivId" class="pathDivClass" hidden>
+                                        <svg id="openNewTabPathSVGId" class="pathSVGClass">
+                                            <polyline id="openNewTabPathPolyLineId" class="pathPolyLineClass" points=""></polyline>
+                                        </svg>
+                                    </div>
+                                    <div id="openNewTabActionDivId" class="actionDivClass" hidden>
+                                        <span id="openNewTabActionLabelId" class="actionLabelClass">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-div">
+                        <img src="../image/ftu/slide3_bg.png">
+                    </div>
+                    <div class="container-wrap" id="ftuPageSlide3ContainerWrapId">
+                        <div class="container">
+                            <div class="row">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td class="tableTitleTd" colspan="7">
+                                            <p class="text-subtitle" data-i18n="settingTabGestureOptionsTitle"></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/LL.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionBack"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/RR.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionForward"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/UU.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollUp"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableResetCol">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/DD.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollDown"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/UL.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollLeft"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/UR.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollRight"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableResetCol">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/DL.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionCloseAllTabsExceptCurrent"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/DR.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionCloseCurrentTab"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/RU.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionOpenNewTab"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableResetCol">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/LU.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionCloseAllTabs"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/RD.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionRefreshCurrentTab"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/LD.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionStopLoading"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableResetCol">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/UD.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollToBottom"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="tableGestureCol">
+                                            <img src="../image/arrow/DU.svg" class="gestureImage">
+                                        </td>
+                                        <td class="tableDropdownCol">
+                                            <div class="dropdown">
+                                                <button class="btn btn-dropdown no-outline" type="button"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false" role="button">
+                                                    <label data-i18n="actionScrollToTop"></label>
+                                                    <span class="caret"></span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Restart browser note -->
+            <p id="ftuPageRestartTipId" class="text-base" data-i18n="ftuPageRestartTip"></p>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#ftuSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#ftuSlider" data-slide-to="1" class=""></li>
+                <li data-target="#ftuSlider" data-slide-to="2" class=""></li>
+                <li data-target="#ftuSlider" data-slide-to="3" class=""></li>
+                <li data-target="#ftuSlider" data-slide-to="4" class=""></li>
+            </ol>
+            <!-- Controls -->
+            <div class="hidden-xs hidden-sm">
+                <div class="carousel-control-grp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="previous">
+                                    <a class="carousel-control" href="#ftuSlider" role="button" data-slide="prev">
+                                        <span class="icon-prev" aria-hidden="false"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="next">
+                                    <a class="carousel-control" href="#ftuSlider" role="button" data-slide="next">
+                                        <span class="icon-next" aria-hidden="false"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../webcore/scripts/bootstrap.js"></script>
+<script type="text/javascript" src="../js/telemetry.js"></script>
+<script type="text/javascript" src="../js/recognizer.js"></script>
+<script type="text/javascript" src="../js/content.js"></script>
+<script type="text/javascript" src="../js/ftu.js"></script>
+</body>
+</html>

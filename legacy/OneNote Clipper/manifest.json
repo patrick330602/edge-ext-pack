@@ -1,0 +1,33 @@
+{
+	"name": "OneNote Clipper",
+	"version": "2.1.4.2",
+	"background": {
+		"page": "EdgeExtension.html",
+		"persistent": true
+	},
+	"description": "__MSG_appDesc__",
+	"default_locale": "en",
+	"author": "Microsoft Corporation",
+	"permissions": [
+		"<all_urls>",
+		"activeTab",
+		"contextMenus",
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"storage"
+	],
+	"browser_action": {
+		"default_title": "Clip to OneNote",
+		"default_icon": {
+			"38" : "images/icon-38.png"
+		}
+	},
+	"icons": {
+		"256": "images/icon-256.png",
+		"128": "images/icon-128.png",
+		"48": "images/icon-48.png",
+		"19": "images/icon-19.png"
+	},
+	"minimum_edge_version": "37.14316.1000.0"
+}
