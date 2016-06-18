@@ -25,11 +25,13 @@ Currently included:
 4. Done!
 
 ## Advance
+
  In cmd prompt:
-| Command                   | Usage                             |
-| ------------------------- | --------------------------------- |
-| `setup`                   | Normal install                    |
-| `setup -l` `setup legacy` | Installing with legacy extensions |
+ 
+Command | Usage
+------- | -----
+`setup` | Normal install
+`setup -l` `setup legacy` | Installing with legacy extensions
 
 
 
@@ -65,8 +67,8 @@ Currently included:
 
 在CMD下：
 
-| 指令                        | 功能   |
-| ------------------------- | ---- |
-| `setup`                   | 普通安装 |
-| `setup -l` `setup legacy` | 完全安装 |
+指令 | 功能 
+------------------------- | ---- 
+`setup`                   | 普通安装 
+`setup -l` `setup legacy` | 完全安装 
 
