@@ -2,6 +2,8 @@
 
 This a pack of unoffical Edge extensions pack for easy install.
 
+**Note: For newer version of Edge, you don't need to run setup.cmd**
+
 Currently included:
 
 + Breeze - New Tab
@@ -40,6 +42,8 @@ Command | Usage
 # Edge插件包
 
 这是一套快速安装非官方的edge插件全集。
+
+**注意：对于新版Edge，你不再需要运行setup.cmd即可部署**
 
 其中包括：
 
