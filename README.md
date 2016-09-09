@@ -1,6 +1,6 @@
 # Edge-Extensions-Pack
 
-This a pack of unoffical Edge extensions pack for easy install.
+This is a pack of unoffical Edge extensions pack for easy install.
 
 **Note: For newer version of Edge, you don't need to run setup.cmd**
 
