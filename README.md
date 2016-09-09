@@ -6,6 +6,7 @@ This a pack of unoffical Edge extensions pack for easy install.
 
 Currently included:
 
++ uBlock
 + Breeze - New Tab
 + CatBlock For AdBlock
 + Flying YouTube
@@ -47,6 +48,7 @@ Command | Usage
 
 其中包括：
 
+-uBlock
 - Breeze - New Tab
 - CatBlock For AdBlock
 - Flying YouTube
