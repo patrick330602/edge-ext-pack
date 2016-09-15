@@ -22,11 +22,11 @@
 /******************************************************************************/
 /******************************************************************************/
 
+'use strict';
+
 // Default handler
 
 (function() {
-
-'use strict';
 
 /******************************************************************************/
 
@@ -192,8 +192,6 @@ vAPI.messaging.setup(onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var µb = µBlock;
@@ -356,30 +354,17 @@ var popupDataFromRequest = function(request, callback) {
 
 /******************************************************************************/
 
-var getPopupDataLazy = function(tabId, callback) {
-    var r = {
-        hiddenElementCount: ''
-    };
-    var pageStore = µb.pageStoreFromTabId(tabId);
-
-    if ( !pageStore ) {
-        callback(r);
-        return;
-    }
-
-    µb.scriptlets.inject(tabId, 'cosmetic-survey', function() {
-        r.hiddenElementCount = pageStore.hiddenElementCount;
-        callback(r);
-    });
-};
-
-/******************************************************************************/
-
 var onMessage = function(request, sender, callback) {
+    var pageStore;
+
     // Async
     switch ( request.what ) {
-    case 'getPopupDataLazy':
-        getPopupDataLazy(request.tabId, callback);
+    case 'getPopupLazyData':
+        pageStore = µb.pageStoreFromTabId(request.tabId);
+        if ( pageStore !== null ) {
+            pageStore.hiddenElementCount = 0;
+            µb.scriptlets.injectDeep(request.tabId, 'cosmetic-survey');
+        }
         return;
 
     case 'getPopupData':
@@ -391,7 +376,6 @@ var onMessage = function(request, sender, callback) {
     }
 
     // Sync
-    var pageStore;
     var response;
 
     switch ( request.what ) {
@@ -454,8 +438,6 @@ vAPI.messaging.listen('popupPanel', onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var µb = µBlock;
@@ -471,7 +453,10 @@ var tagNameToRequestTypeMap = {
 
 /******************************************************************************/
 
-// Evaluate many requests
+// Evaluate many requests.
+
+// https://github.com/gorhill/uBlock/issues/1782
+//   Treat `data:` URIs as 1st-party resources.
 
 var filterRequests = function(pageStore, details) {
     var requests = details.requests;
@@ -493,8 +478,8 @@ var filterRequests = function(pageStore, details) {
     while ( i-- ) {
         request = requests[i];
         context.requestURL = punycodeURL(request.url);
-        context.requestType = tagNameToRequestTypeMap[request.tagName];
-        context.requestHostname = hostnameFromURI(request.url);
+        context.requestHostname = hostnameFromURI(context.requestURL);
+        context.requestType = tagNameToRequestTypeMap[request.tag];
         r = pageStore.filterRequest(context);
         if ( typeof r !== 'string' || r.charAt(1) !== 'b' ) {
             continue;
@@ -528,32 +513,35 @@ var onMessage = function(request, sender, callback) {
     }
 
     switch ( request.what ) {
-    case 'retrieveDomainCosmeticSelectors':
+    case 'retrieveContentScriptParameters':
         if ( pageStore && pageStore.getNetFilteringSwitch() ) {
-            response = µb.cosmeticFilteringEngine.retrieveDomainSelectors(request);
-            if ( response && response.skipCosmeticFiltering !== true ) {
-                response.skipCosmeticFiltering = !pageStore.getSpecificCosmeticFilteringSwitch();
-            }
+            response = {
+                loggerEnabled: µb.logger.isEnabled(),
+                collapseBlocked: µb.userSettings.collapseBlocked,
+                noCosmeticFiltering: µb.cosmeticFilteringEngine.acceptedCount === 0 || pageStore.noCosmeticFiltering === true,
+                noGenericCosmeticFiltering: pageStore.noGenericCosmeticFiltering === true
+            };
+            response.specificCosmeticFilters = µb.cosmeticFilteringEngine.retrieveDomainSelectors(
+                request,
+                response.noCosmeticFiltering
+            );
         }
         break;
 
     case 'retrieveGenericCosmeticSelectors':
-        response = {
-            shutdown: !pageStore || !pageStore.getNetFilteringSwitch(),
-            result: null
-        };
-        if ( !response.shutdown && pageStore.getGenericCosmeticFilteringSwitch() ) {
-            response.result = µb.cosmeticFilteringEngine.retrieveGenericSelectors(request);
+        if ( pageStore && pageStore.getGenericCosmeticFilteringSwitch() ) {
+            response = {
+                result: µb.cosmeticFilteringEngine.retrieveGenericSelectors(request)
+            };
         }
         break;
 
     case 'filterRequests':
-        response = {
-            shutdown: !pageStore || !pageStore.getNetFilteringSwitch(),
-            result: null
-        };
-        if ( !response.shutdown ) {
-            response.result = filterRequests(pageStore, request);
+        if ( pageStore && pageStore.getNetFilteringSwitch() ) {
+            response = {
+                result: filterRequests(pageStore, request),
+                netSelectorCacheCountMax: µb.cosmeticFilteringEngine.netSelectorCacheCountMax
+            };
         }
         break;
 
@@ -576,8 +564,6 @@ vAPI.messaging.listen('contentscript', onMessage);
 // channel: elementPicker
 
 (function() {
-
-'use strict';
 
 /******************************************************************************/
 
@@ -657,8 +643,6 @@ vAPI.messaging.listen('elementPicker', onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var µb = µBlock;
@@ -718,8 +702,6 @@ vAPI.messaging.listen('cloudWidget', onMessage);
 // channel: dashboard
 
 (function() {
-
-'use strict';
 
 /******************************************************************************/
 
@@ -864,9 +846,10 @@ var getLists = function(callback) {
         autoUpdate: µb.userSettings.autoUpdate,
         available: null,
         cache: null,
-        cosmetic: µb.userSettings.parseAllABPHideFilters,
+        parseCosmeticFilters: µb.userSettings.parseAllABPHideFilters,
         cosmeticFilterCount: µb.cosmeticFilteringEngine.getFilterCount(),
         current: µb.remoteBlacklists,
+        ignoreGenericCosmeticFilters: µb.userSettings.ignoreGenericCosmeticFilters,
         manualUpdate: false,
         netFilterCount: µb.staticNetFilteringEngine.getFilterCount(),
         userFiltersPath: µb.userFiltersPath
@@ -1023,8 +1006,6 @@ vAPI.messaging.listen('dashboard', onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var µb = µBlock;
@@ -1138,8 +1119,6 @@ vAPI.messaging.listen('loggerUI', onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var onMessage = function(request, sender, callback) {
@@ -1177,11 +1156,27 @@ vAPI.messaging.listen('documentBlocked', onMessage);
 
 (function() {
 
-'use strict';
-
 /******************************************************************************/
 
 var µb = µBlock;
+var broadcastTimers = Object.create(null);
+
+/******************************************************************************/
+
+var cosmeticallyFilteredElementCountChanged = function(tabId) {
+    delete broadcastTimers[tabId + '-cosmeticallyFilteredElementCountChanged'];
+
+    var pageStore = µb.pageStoreFromTabId(tabId);
+    if ( pageStore === null ) {
+        return;
+    }
+
+    vAPI.messaging.broadcast({
+        what: 'cosmeticallyFilteredElementCountChanged',
+        tabId: tabId,
+        count: pageStore.hiddenElementCount
+    });
+};
 
 /******************************************************************************/
 
@@ -1223,9 +1218,16 @@ var onMessage = function(request, sender, callback) {
     var response;
 
     switch ( request.what ) {
-    case 'liveCosmeticFilteringData':
-        if ( pageStore !== null ) {
-            pageStore.hiddenElementCount = request.filteredElementCount;
+    case 'cosmeticallyFilteredElementCount':
+        if ( pageStore !== null && request.filteredElementCount ) {
+            pageStore.hiddenElementCount += request.filteredElementCount;
+            var broadcastKey = tabId + '-cosmeticallyFilteredElementCountChanged';
+            if ( broadcastTimers[broadcastKey] === undefined ) {
+                broadcastTimers[broadcastKey] = vAPI.setTimeout(
+                    cosmeticallyFilteredElementCountChanged.bind(null, tabId),
+                    250
+                );
+            }
         }
         break;
 

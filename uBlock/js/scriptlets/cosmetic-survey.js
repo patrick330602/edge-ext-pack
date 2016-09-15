@@ -24,7 +24,7 @@
 /******************************************************************************/
 
 (function() {
-    if ( typeof vAPI !== 'object' || typeof vAPI.domFilterer !== 'object' ) {
+    if ( typeof vAPI !== 'object' || !vAPI.domFilterer ) {
         return;
     }
 
@@ -39,7 +39,7 @@
     vAPI.messaging.send(
         'scriptlets',
         {
-            what: 'liveCosmeticFilteringData',
+            what: 'cosmeticallyFilteredElementCount',
             pageURL: window.location.href,
             filteredElementCount: xpr && xpr.numberValue || 0
         }

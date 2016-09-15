@@ -59,6 +59,7 @@ return {
         externalLists: defaultExternalLists,
         firewallPaneMinimized: true,
         hyperlinkAuditingDisabled: true,
+        ignoreGenericCosmeticFilters: false,
         largeMediaSize: 50,
         parseAllABPHideFilters: true,
         prefetchingDisabled: true,
@@ -79,6 +80,7 @@ return {
         'chrome-scheme',
         'loopconversation.about-scheme',
         'opera-scheme',
+        'vivaldi-scheme',
         ''
     ].join('\n').trim(),
 
@@ -91,8 +93,8 @@ return {
 
     // read-only
     systemSettings: {
-        compiledMagic: 'splsmclwnvoj',
-        selfieMagic: 'splsmclwnvoj'
+        compiledMagic: 'ryegxvatkfxe',
+        selfieMagic: 'ryegxvatkfxe'
     },
 
     restoreBackupSettings: {
